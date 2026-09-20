@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f4efe4;
+  --ink: #102033;
+  --navy: #0b1c33;
+  --navy-deep: #071322;
+  --teal: #1c6b72;
+  --gold: #c9a227;
+  --gold-bright: #e6c86a;
+  --mist: #d7e2ea;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-teal: var(--teal);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-mist: var(--mist);
+  --font-sans: var(--font-source-sans);
+  --font-display: var(--font-fraunces);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-source-sans), "Source Sans 3", sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-fraunces), Fraunces, Georgia, serif;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-ghost,
+.btn-gold,
+.btn-on-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding: 0.7rem 1.15rem;
+  font-size: 0.95rem;
+  font-weight: 650;
+  line-height: 1.2;
+  transition: transform 120ms ease, background-color 120ms ease, border-color 120ms ease;
+}
+
+.btn-primary {
+  background: var(--navy);
+  color: var(--paper);
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--navy);
+  border: 1px solid color-mix(in srgb, var(--navy) 18%, white);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--teal);
+  border: 1px solid color-mix(in srgb, var(--teal) 40%, white);
+}
+
+.btn-gold {
+  background: var(--gold-bright);
+  color: var(--navy-deep);
+}
+
+.btn-on-dark {
+  background: transparent;
+  color: white;
+  border: 1px solid color-mix(in srgb, white 35%, transparent);
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-ghost:hover,
+.btn-gold:hover,
+.btn-on-dark:hover {
+  transform: translateY(-1px);
+}
+
+audio,
+video {
+  max-width: 100%;
+}
+
+audio {
+  accent-color: var(--teal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .btn-primary:hover,
+  .btn-secondary:hover,
+  .btn-ghost:hover,
+  .btn-gold:hover,
+  .btn-on-dark:hover {
+    transform: none;
+  }
+}
