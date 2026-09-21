@@ -19,7 +19,7 @@ export function Hero() {
           <a href="#see-it" className="btn-primary">
             {t.hero.primary}
           </a>
-          <a href="#estimate" className="btn-secondary">
+          <a href="#pricing" className="btn-secondary">
             {t.hero.secondary}
           </a>
           <a
@@ -41,6 +41,7 @@ export function Hero() {
             </li>
           ))}
         </ul>
+        <p className="mt-6 max-w-2xl text-base leading-7 text-ink/80">{t.hero.handoff}</p>
       </div>
     </section>
   );

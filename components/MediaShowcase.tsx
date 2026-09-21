@@ -37,7 +37,13 @@ export function MediaShowcase() {
             <figcaption className="font-display text-xl text-gold-bright">
               {t.media.cityTitle}
             </figcaption>
-            <audio className="mt-4 w-full" controls preload="metadata" src={MEDIA.cityCall}>
+            <audio
+              className="mt-4 w-full"
+              controls
+              preload="metadata"
+              src={MEDIA.cityCall}
+              aria-label={t.media.cityTitle}
+            >
               Your browser does not support audio.
             </audio>
             <p className="mt-3 text-sm leading-6 text-mist">{t.media.cityCaption}</p>
@@ -46,7 +52,13 @@ export function MediaShowcase() {
             <figcaption className="font-display text-xl text-gold-bright">
               {t.media.schoolTitle}
             </figcaption>
-            <audio className="mt-4 w-full" controls preload="metadata" src={MEDIA.schoolCall}>
+            <audio
+              className="mt-4 w-full"
+              controls
+              preload="metadata"
+              src={MEDIA.schoolCall}
+              aria-label={t.media.schoolTitle}
+            >
               Your browser does not support audio.
             </audio>
             <p className="mt-3 text-sm leading-6 text-mist">{t.media.schoolCaption}</p>

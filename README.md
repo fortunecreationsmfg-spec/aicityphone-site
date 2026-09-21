@@ -37,10 +37,10 @@ Files in `public/media/`:
 | --- | --- |
 | `marketing-video.mp4` | Homepage HTML5 video |
 | `marketing-video-poster.jpg` | Video poster frame |
-| `sample-call-city.mp3` | City / resident sample |
-| `sample-call-school.mp3` | School / parent sample |
+| `sample-call-city.mp3` | City / resident sample (utility billing / City Hall line) |
+| `sample-call-school.mp3` | School / parent sample (district office / dress-code follow-up) |
 
-They appear in the **See & hear it in action** band directly under the hero.
+They appear in the **See & hear it in action** band directly under the hero. An IT-handoff band follows the media, before how-it-works.
 
 ## Deploy on Vercel
 
@@ -54,5 +54,6 @@ The primary trial CTA is a soft “try one department” link to the HighLevel B
 
 ## Notes
 
-- Estimate calculator figures are **planning ranges only**, not quotes and not customer case studies.
+- The listed price is **$497 per month**. Usage-based telecom and AI communication fees may apply (HighLevel’s standard usage charges). This site does not publish other monthly tiers or setup-fee ranges.
+- Setup can be handed to the city’s or district’s IT manager. They can run it through the [HighLevel Boot Camp](https://www.gohighlevel.com/highlevel-bootcamp?fp_ref=jer78).
 - Emergency callers are told to hang up and dial 911. This line is not dispatch.
