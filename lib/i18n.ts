@@ -14,7 +14,7 @@ export const copy = {
       how: "How it works",
       audiences: "Cities & schools",
       trust: "911",
-      estimate: "Estimate",
+      pricing: "Pricing",
       faq: "FAQ",
       privacy: "Privacy",
     },
@@ -25,15 +25,16 @@ export const copy = {
     hero: {
       eyebrow: "AI phone answering for small cities and school districts",
       title: "After-hours calls answered. Staff mornings protected.",
-      body: "AI City Phone greets residents and parents in English and Spanish, takes a complete message, and delivers a morning log. 911 is never held. Built on GoHighLevel, with IT help and a Boot Camp path to get started.",
+      body: "AI City Phone greets residents and parents in English and Spanish, takes a complete message, and delivers a morning log. 911 is never held. Built on GoHighLevel. Easy to hand to your IT manager, with a Boot Camp path to get started.",
       primary: "See & hear it in action",
-      secondary: "Plan an estimate",
+      secondary: "See what it costs",
       trial: "Try it with one department",
+      handoff: "Setup can be handed to your IT department or IT manager — they can run it in the online Boot Camp.",
       chips: [
         "911 never held",
         "English + Spanish",
         "Morning logs",
-        "IT + Boot Camp",
+        "IT can run setup",
       ],
     },
     media: {
@@ -71,7 +72,7 @@ export const copy = {
         },
         {
           title: "IT help on a platform you can see",
-          body: "AI City Phone runs on GoHighLevel Voice AI. FortuneCreations helps map numbers, greetings, and routing with your existing vendor.",
+          body: "AI City Phone runs on GoHighLevel Voice AI. Hand setup to your IT manager, or let FortuneCreations help map numbers, greetings, and routing with your existing vendor.",
         },
         {
           title: "Try one department first",
@@ -130,7 +131,7 @@ export const copy = {
         "Notes the office can act on at 8:00 a.m.",
       ],
       aside:
-        "We do not publish invented dollar case studies. If a conversation is useful, we will talk through your numbers, your vendors, and a one-department start.",
+        "We do not publish invented dollar case studies. The listed price is $497 per month. If a conversation is useful, we will talk through your vendors and a one-department start.",
     },
     trust: {
       title: "911 is never held. This line is not dispatch.",
@@ -154,38 +155,26 @@ export const copy = {
         },
       ],
     },
-    estimate: {
-      title: "Estimate calculator",
-      lead: "Planning ranges only — not a quote, not a contract, and not based on invented customer savings. Use this to decide whether a conversation is worth your time.",
-      orgLabel: "Organization",
-      city: "Small city or town",
-      school: "School district",
-      sizeLabel: "Size",
-      citySizes: {
-        xs: "Under 2,500 residents",
-        s: "2,500–10,000 residents",
-        m: "10,000–25,000 residents",
-        l: "25,000–50,000 residents",
-      },
-      schoolSizes: {
-        xs: "Under 500 students",
-        s: "500–2,000 students",
-        m: "2,000–5,000 students",
-        l: "5,000–10,000 students",
-      },
-      coverageLabel: "Coverage",
-      evenings: "Evenings and weekends",
-      nights: "Nights, weekends, and holidays (24/7 after hours)",
-      overflow: "After hours plus daytime overflow",
-      deptLabel: "Departments to cover",
-      deptHint: "Most offices start with one published number.",
-      monthly: "Estimated monthly range",
-      setup: "Estimated setup range",
-      included: "English + Spanish and 911-safe intake are included in every estimate.",
+    pricing: {
+      title: "What it costs",
+      kicker: "One monthly offer",
+      lead: "One listed price — $497 per month — on the HighLevel platform AI City Phone is built on. Start with the Boot Camp trial, then that monthly rate.",
+      price: "$497",
+      period: "/ month",
+      included: "English + Spanish and 911-safe intake are included.",
       disclaimer:
-        "These figures are planning estimates only. Usage, carrier, and GoHighLevel communication fees vary. They are not a price quote and not a report of another city’s results.",
-      emailCta: "Email this planning range",
-      emailSubject: "AI City Phone planning estimate",
+        "Usage-based telecom and AI communication fees may apply. Those are HighLevel’s standard usage charges, not another monthly plan or a setup-fee range.",
+      trial: "Start with HighLevel Boot Camp",
+      trialNote:
+        "The Boot Camp page is HighLevel’s trial path for the platform behind AI City Phone. Offers and trial terms there are HighLevel’s.",
+      emailCta: "Email FortuneCreations",
+    },
+    itHandoff: {
+      kicker: "IT handoff",
+      title: "Easy to pass to your IT manager.",
+      body: "Your IT department or IT manager can run setup through the online HighLevel Boot Camp, with training materials for your city or school district.",
+      cta: "Open HighLevel Boot Camp",
+      note: "Click-by-click training on the platform AI City Phone is built on. FortuneCreations stays available if you want a conversation first.",
     },
     faq: {
       title: "Questions clerks and IT actually ask",
@@ -203,16 +192,16 @@ export const copy = {
           a: "A structured list of overnight and weekend calls: who called, language, callback number, and what they asked for — so staff start the day from writing, not from a voicemail pile.",
         },
         {
-          q: "Do we need our own IT department?",
-          a: "No. The product runs on GoHighLevel. FortuneCreations helps with setup, and your team can take the HighLevel Boot Camp path if you want platform training first.",
+          q: "Can our IT department handle setup?",
+          a: "Yes. This is easy to pass to your IT manager or IT team. They can run setup through the online HighLevel Boot Camp, which includes training materials for your city or district. FortuneCreations can also help map numbers and greetings if you want a conversation first.",
         },
         {
           q: "What is the HighLevel Boot Camp path?",
           a: "A GoHighLevel onboarding class and trial you can start before a longer commitment. It is the hands-on way to see the platform AI City Phone is built on. Offers on that page are HighLevel’s — we do not invent a separate 30-day-only city package.",
         },
         {
-          q: "Are the calculator numbers a quote?",
-          a: "No. They are planning estimates only — a range to decide whether a conversation is worth your time. They are not based on invented customer savings.",
+          q: "What does it cost?",
+          a: "The listed price is $497 per month. Usage-based telecom and AI communication fees may apply — those are HighLevel’s standard usage charges, not a second monthly plan. We do not publish other tiers or setup-fee ranges.",
         },
         {
           q: "Who operates AI City Phone?",
@@ -227,10 +216,11 @@ export const copy = {
     cta: {
       title: "Send the number you already publish. We will talk through coverage.",
       body: "Start with one department — the clerk line, the after-hours City Hall number, or the parent line. No invented case studies. No pressure to cover every extension on day one.",
+      handoff: "Easy to pass to IT: your IT manager can run setup via the online Boot Camp with training materials for your city or district.",
       email: "Email fortunecreationsut@froyorobo.com",
       trial: "Try it with one department",
       trialNote:
-        "Opens the HighLevel Boot Camp page — the platform path behind AI City Phone.",
+        "Opens the HighLevel Boot Camp page — the platform path behind AI City Phone. Listed price is $497 per month after HighLevel’s trial terms.",
     },
     footer: {
       blurb:
@@ -283,7 +273,7 @@ export const copy = {
       how: "Cómo funciona",
       audiences: "Ciudades y escuelas",
       trust: "911",
-      estimate: "Estimación",
+      pricing: "Precio",
       faq: "Preguntas",
       privacy: "Privacidad",
     },
@@ -294,15 +284,16 @@ export const copy = {
     hero: {
       eyebrow: "Atención telefónica con IA para ciudades pequeñas y distritos escolares",
       title: "Llamadas fuera de horario contestadas. Las mañanas del personal, protegidas.",
-      body: "AI City Phone atiende a residentes y padres en inglés y español, toma un mensaje completo y entrega un registro matutino. El 911 nunca se pone en espera. Funciona sobre GoHighLevel, con apoyo de TI y un Boot Camp para empezar.",
+      body: "AI City Phone atiende a residentes y padres en inglés y español, toma un mensaje completo y entrega un registro matutino. El 911 nunca se pone en espera. Funciona sobre GoHighLevel. Es fácil pasarlo a su gerente de TI, con un Boot Camp para empezar.",
       primary: "Véalo y escúchelo en acción",
-      secondary: "Calcular una estimación",
+      secondary: "Vea qué cuesta",
       trial: "Pruébelo con un departamento",
+      handoff: "La puesta en marcha se puede entregar a su departamento o gerente de TI: pueden hacerla en el Boot Camp en línea.",
       chips: [
         "El 911 nunca en espera",
         "Inglés + español",
         "Registros matutinos",
-        "TI + Boot Camp",
+        "TI puede configurarlo",
       ],
     },
     media: {
@@ -340,7 +331,7 @@ export const copy = {
         },
         {
           title: "Apoyo de TI en una plataforma visible",
-          body: "AI City Phone funciona con Voice AI de GoHighLevel. FortuneCreations ayuda a mapear números, saludos y enrutamiento con su proveedor actual.",
+          body: "AI City Phone funciona con Voice AI de GoHighLevel. Puede pasar la puesta en marcha a su gerente de TI, o FortuneCreations ayuda a mapear números, saludos y enrutamiento con su proveedor actual.",
         },
         {
           title: "Empiece con un departamento",
@@ -399,7 +390,7 @@ export const copy = {
         "Notas que la oficina puede atender a las 8:00 a. m.",
       ],
       aside:
-        "No publicamos casos de estudio con dólares inventados. Si la conversación sirve, hablamos de sus números, sus proveedores y un arranque de un departamento.",
+        "No publicamos casos de estudio con dólares inventados. El precio publicado es $497 al mes. Si la conversación sirve, hablamos de sus proveedores y un arranque de un departamento.",
     },
     trust: {
       title: "El 911 nunca se pone en espera. Esta línea no es despacho.",
@@ -423,38 +414,26 @@ export const copy = {
         },
       ],
     },
-    estimate: {
-      title: "Calculadora de estimación",
-      lead: "Solo rangos de planificación: no es una cotización, no es un contrato y no se basa en ahorros inventados de otros clientes. Sirve para decidir si vale la pena una conversación.",
-      orgLabel: "Organización",
-      city: "Ciudad o pueblo pequeño",
-      school: "Distrito escolar",
-      sizeLabel: "Tamaño",
-      citySizes: {
-        xs: "Menos de 2,500 residentes",
-        s: "2,500–10,000 residentes",
-        m: "10,000–25,000 residentes",
-        l: "25,000–50,000 residentes",
-      },
-      schoolSizes: {
-        xs: "Menos de 500 estudiantes",
-        s: "500–2,000 estudiantes",
-        m: "2,000–5,000 estudiantes",
-        l: "5,000–10,000 estudiantes",
-      },
-      coverageLabel: "Cobertura",
-      evenings: "Tardes y fines de semana",
-      nights: "Noches, fines de semana y días festivos (24/7 fuera de horario)",
-      overflow: "Fuera de horario más desborde diurno",
-      deptLabel: "Departamentos a cubrir",
-      deptHint: "La mayoría empieza con un solo número publicado.",
-      monthly: "Rango mensual estimado",
-      setup: "Rango estimado de puesta en marcha",
-      included: "Inglés + español y la toma segura ante el 911 van en cada estimación.",
+    pricing: {
+      title: "Qué cuesta",
+      kicker: "Una sola oferta mensual",
+      lead: "Un solo precio publicado: $497 al mes, en la plataforma HighLevel sobre la que está construido AI City Phone. Empiece con la prueba del Boot Camp y luego ese cargo mensual.",
+      price: "$497",
+      period: "/ mes",
+      included: "Inglés + español y la toma segura ante el 911 están incluidos.",
       disclaimer:
-        "Estas cifras son solo estimaciones de planificación. El uso, el operador y los cargos de comunicación de GoHighLevel varían. No son una cotización ni el resultado de otra ciudad.",
-      emailCta: "Enviar este rango por correo",
-      emailSubject: "Estimación de planificación de AI City Phone",
+        "Pueden aplicarse cargos de telecomunicaciones e IA según el uso. Son los recargos estándar de HighLevel, no otro plan mensual ni un rango de puesta en marcha.",
+      trial: "Empezar con HighLevel Boot Camp",
+      trialNote:
+        "La página del Boot Camp es el camino de prueba de HighLevel para la plataforma detrás de AI City Phone. Las ofertas y condiciones de esa página son de HighLevel.",
+      emailCta: "Escribir a FortuneCreations",
+    },
+    itHandoff: {
+      kicker: "Entrega a TI",
+      title: "Fácil de pasar a su gerente de TI.",
+      body: "Su departamento de informática o gerente de TI puede hacer la puesta en marcha con el Boot Camp en línea de HighLevel, con materiales de capacitación para su ciudad o distrito escolar.",
+      cta: "Abrir HighLevel Boot Camp",
+      note: "Capacitación paso a paso en la plataforma sobre la que está construido AI City Phone. FortuneCreations sigue disponible si quieren una conversación primero.",
     },
     faq: {
       title: "Preguntas que de verdad hacen secretaría y TI",
@@ -472,16 +451,16 @@ export const copy = {
           a: "Una lista estructurada de las llamadas de la noche y el fin de semana: quién llamó, idioma, número de devolución y qué pidió, para que el personal empiece el día desde lo escrito, no desde el buzón.",
         },
         {
-          q: "¿Necesitamos un departamento de TI propio?",
-          a: "No. El producto funciona en GoHighLevel. FortuneCreations ayuda con la puesta en marcha, y su equipo puede tomar el Boot Camp de HighLevel si quiere capacitación de la plataforma primero.",
+          q: "¿Puede encargarse nuestro departamento de TI?",
+          a: "Sí. Es fácil pasarlo a su gerente de TI o al equipo de informática. Pueden hacer la puesta en marcha con el Boot Camp en línea de HighLevel, que incluye materiales de capacitación para su ciudad o distrito. FortuneCreations también puede ayudar a mapear números y saludos si quieren una conversación primero.",
         },
         {
           q: "¿Qué es el camino de HighLevel Boot Camp?",
           a: "Una clase de incorporación y una prueba de GoHighLevel que pueden empezar antes de un compromiso más largo. Es la forma práctica de ver la plataforma sobre la que está construido AI City Phone. Las ofertas de esa página son de HighLevel; nosotros no inventamos un paquete municipal de solo 30 días.",
         },
         {
-          q: "¿Los números de la calculadora son una cotización?",
-          a: "No. Son solo estimaciones de planificación: un rango para decidir si vale la pena conversar. No se basan en ahorros inventados de clientes.",
+          q: "¿Cuánto cuesta?",
+          a: "El precio publicado es $497 al mes. Pueden aplicarse cargos de telecomunicaciones e IA según el uso: son los recargos estándar de HighLevel, no un segundo plan mensual. No publicamos otros niveles ni rangos de puesta en marcha.",
         },
         {
           q: "¿Quién opera AI City Phone?",
@@ -496,10 +475,11 @@ export const copy = {
     cta: {
       title: "Envíe el número que ya publican. Hablamos de la cobertura.",
       body: "Empiece con un departamento: la línea de secretaría, el número fuera de horario del ayuntamiento o la línea de padres. Sin casos inventados. Sin presión para cubrir cada extensión el primer día.",
+      handoff: "Fácil de pasar a TI: su gerente de informática puede hacer la puesta en marcha con el Boot Camp en línea y materiales de capacitación para su ciudad o distrito.",
       email: "Escribir a fortunecreationsut@froyorobo.com",
       trial: "Pruébelo con un departamento",
       trialNote:
-        "Abre la página de HighLevel Boot Camp, el camino de plataforma detrás de AI City Phone.",
+        "Abre la página de HighLevel Boot Camp, el camino de plataforma detrás de AI City Phone. El precio publicado es $497 al mes después de las condiciones de prueba de HighLevel.",
     },
     footer: {
       blurb:
