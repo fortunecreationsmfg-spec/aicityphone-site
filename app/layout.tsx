@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { SiteShell } from "@/components/SiteShell";
 import {
   BRAND,
@@ -63,6 +64,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col bg-paper font-sans text-ink">
         <SiteShell>{children}</SiteShell>
+        <Analytics />
       </body>
     </html>
   );
