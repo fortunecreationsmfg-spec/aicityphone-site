@@ -54,6 +54,6 @@ The primary trial CTA is a soft “try one department” link to the HighLevel B
 
 ## Notes
 
-- The listed price is **$497 per month**. Usage-based telecom and AI communication fees may apply (HighLevel’s standard usage charges). This site does not publish other monthly tiers or setup-fee ranges.
+- Pricing available upon request. This site does not publish a public dollar price.
 - Setup can be handed to the city’s or district’s IT manager. They can run it through the [HighLevel Boot Camp](https://www.gohighlevel.com/highlevel-bootcamp?fp_ref=jer78).
 - Emergency callers are told to hang up and dial 911. This line is not dispatch.

@@ -132,7 +132,7 @@ export const copy = {
         "Notes the office can act on at 8:00 a.m.",
       ],
       aside:
-        "We do not publish invented dollar case studies. The listed price is $497 per month. If a conversation is useful, we will talk through your vendors and a one-department start.",
+        "We do not publish invented dollar case studies. Pricing available upon request. If a conversation is useful, we will talk through your vendors and a one-department start.",
     },
     trust: {
       title: "911 is never held. This line is not dispatch.",
@@ -196,7 +196,7 @@ export const copy = {
         },
         {
           q: "What does it cost?",
-          a: "The listed price is $497 per month. Usage-based telecom and AI communication fees may apply — those are HighLevel’s standard usage charges, not a second monthly plan. We do not publish other tiers or setup-fee ranges.",
+          a: "Pricing available upon request.",
         },
         {
           q: "Who operates AI City Phone?",
@@ -215,7 +215,7 @@ export const copy = {
       email: "Email fortunecreationsut@froyorobo.com",
       trial: "Try it with one department",
       trialNote:
-        "Opens the HighLevel Boot Camp page — the platform path behind AI City Phone. Listed price is $497 per month after HighLevel’s trial terms.",
+        "Opens the HighLevel Boot Camp page — the platform path behind AI City Phone. Pricing available upon request.",
     },
     footer: {
       blurb:
@@ -386,7 +386,7 @@ export const copy = {
         "Notas que la oficina puede atender a las 8:00 a. m.",
       ],
       aside:
-        "No publicamos casos de estudio con dólares inventados. El precio publicado es $497 al mes. Si la conversación sirve, hablamos de sus proveedores y un arranque de un departamento.",
+        "No publicamos casos de estudio con dólares inventados. Pricing available upon request. Si la conversación sirve, hablamos de sus proveedores y un arranque de un departamento.",
     },
     trust: {
       title: "El 911 nunca se pone en espera. Esta línea no es despacho.",
@@ -450,7 +450,7 @@ export const copy = {
         },
         {
           q: "¿Cuánto cuesta?",
-          a: "El precio publicado es $497 al mes. Pueden aplicarse cargos de telecomunicaciones e IA según el uso: son los recargos estándar de HighLevel, no un segundo plan mensual. No publicamos otros niveles ni rangos de puesta en marcha.",
+          a: "Pricing available upon request.",
         },
         {
           q: "¿Quién opera AI City Phone?",
@@ -469,7 +469,7 @@ export const copy = {
       email: "Escribir a fortunecreationsut@froyorobo.com",
       trial: "Pruébelo con un departamento",
       trialNote:
-        "Abre la página de HighLevel Boot Camp, el camino de plataforma detrás de AI City Phone. El precio publicado es $497 al mes después de las condiciones de prueba de HighLevel.",
+        "Abre la página de HighLevel Boot Camp, el camino de plataforma detrás de AI City Phone. Pricing available upon request.",
     },
     footer: {
       blurb:
