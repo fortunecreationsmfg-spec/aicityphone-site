@@ -50,7 +50,7 @@ They appear in the **See & hear it in action** band directly under the hero. An 
 4. Deploy from the `main` branch. No extra environment variables are required.
 5. When DNS is ready, attach `aicityphone.com`.
 
-The primary trial CTA is a soft “try one department” link to the HighLevel Boot Camp page. Offers on that page belong to HighLevel; this site does not invent a separate 30-day-only municipal package.
+The primary trial CTA is a soft “try one department” link to the HighLevel Boot Camp page. Offers on that page belong to HighLevel; this site does not invent a separate 30-day-only municipal package. Components import that link from `BOOTCAMP_URL` in `lib/constants.ts` — do not hardcode another HighLevel URL.
 
 ## Notes
 
