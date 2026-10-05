@@ -64,6 +64,10 @@ export function MediaShowcase() {
             <p className="mt-3 text-sm leading-6 text-mist">{t.media.schoolCaption}</p>
           </figure>
         </div>
+
+        <p className="mt-10 rounded-2xl border border-gold/40 bg-white/5 px-6 py-8 text-center font-display text-2xl leading-snug text-gold-bright sm:text-3xl">
+          {t.media.pricingNote}
+        </p>
       </div>
     </section>
   );

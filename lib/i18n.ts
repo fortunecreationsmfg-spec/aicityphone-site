@@ -49,6 +49,7 @@ export const copy = {
       schoolTitle: "School / parent call sample",
       schoolCaption:
         "Demonstration parent call on a school-district line. Routine questions after the office is closed. Not a recording of a real family.",
+      pricingNote: "Pricing available upon request.",
     },
     pillars: {
       title: "Built for clerks, superintendents, and the one person who still answers the phone.",
@@ -157,13 +158,7 @@ export const copy = {
     },
     pricing: {
       title: "What it costs",
-      kicker: "One monthly offer",
-      lead: "One listed price — $497 per month — on the HighLevel platform AI City Phone is built on. Start with the Boot Camp trial, then that monthly rate.",
-      price: "$497",
-      period: "/ month",
-      included: "English + Spanish and 911-safe intake are included.",
-      disclaimer:
-        "Usage-based telecom and AI communication fees may apply. Those are HighLevel’s standard usage charges, not another monthly plan or a setup-fee range.",
+      statement: "Pricing available upon request.",
       trial: "Start with HighLevel Boot Camp",
       trialNote:
         "The Boot Camp page is HighLevel’s trial path for the platform behind AI City Phone. Offers and trial terms there are HighLevel’s.",
@@ -308,6 +303,7 @@ export const copy = {
       schoolTitle: "Muestra de llamada escuela / padre o madre",
       schoolCaption:
         "Llamada de demostración de un padre o madre en una línea de distrito escolar. Preguntas rutinarias cuando la oficina ya cerró. No es la grabación de una familia real.",
+      pricingNote: "Pricing available upon request.",
     },
     pillars: {
       title: "Hecho para secretarios, superintendentes y la persona que todavía contesta el teléfono.",
@@ -416,13 +412,7 @@ export const copy = {
     },
     pricing: {
       title: "Qué cuesta",
-      kicker: "Una sola oferta mensual",
-      lead: "Un solo precio publicado: $497 al mes, en la plataforma HighLevel sobre la que está construido AI City Phone. Empiece con la prueba del Boot Camp y luego ese cargo mensual.",
-      price: "$497",
-      period: "/ mes",
-      included: "Inglés + español y la toma segura ante el 911 están incluidos.",
-      disclaimer:
-        "Pueden aplicarse cargos de telecomunicaciones e IA según el uso. Son los recargos estándar de HighLevel, no otro plan mensual ni un rango de puesta en marcha.",
+      statement: "Pricing available upon request.",
       trial: "Empezar con HighLevel Boot Camp",
       trialNote:
         "La página del Boot Camp es el camino de prueba de HighLevel para la plataforma detrás de AI City Phone. Las ofertas y condiciones de esa página son de HighLevel.",
