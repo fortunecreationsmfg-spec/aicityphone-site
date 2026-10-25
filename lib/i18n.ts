@@ -10,38 +10,58 @@ export const copy = {
     htmlLang: "en",
     skip: "Skip to content",
     nav: {
-      media: "See & hear it",
-      how: "How it works",
+      media: "Samples",
+      homeServices: "Home services",
       audiences: "Cities & schools",
+      how: "How it works",
       trust: "911",
       pricing: "Pricing",
       faq: "FAQ",
       privacy: "Privacy",
     },
-    headerCta: "Request a conversation",
+    headerCta: "Get started",
     langLabel: "Language",
     en: "EN",
     es: "ES",
     hero: {
-      eyebrow: "AI phone answering for small cities and school districts",
-      title: "After-hours calls answered. Staff mornings protected.",
-      body: "AI City Phone greets residents and parents in English and Spanish, takes a complete message, and delivers a morning log. 911 is never held. Built on GoHighLevel. Easy to hand to your IT manager, with a Boot Camp path to get started.",
-      primary: "See & hear it in action",
-      secondary: "See what it costs",
-      trial: "Try it with one department",
-      handoff: "Setup can be handed to your IT department or IT manager — they can run it in the online Boot Camp.",
+      switcherLabel: "Choose a line",
+      civicBanner:
+        "Cities, towns, and school districts: this is the AI City Phone page, including if you opened it from an email. Home-service companies are here too.",
+      switcher: [
+        {
+          href: "#home-services",
+          title: "Home services",
+          body: "HVAC, roofing, plumbing, electrical, landscaping, and similar contractors.",
+        },
+        {
+          href: "#cities",
+          title: "Cities & towns",
+          body: "City Hall, utilities, and department lines after hours.",
+        },
+        {
+          href: "#schools",
+          title: "School districts",
+          body: "Parent, attendance, and front-office lines after the building closes.",
+        },
+      ],
+      eyebrow: "24/7 AI phone answering",
+      title: "Answered when no one can pick up.",
+      body: "AI City Phone greets callers in English and Spanish, takes a complete message, schedules appointments, texts back, and routes emergencies. One plan, $450 a month, from FortuneCreations, LLC.",
       chips: [
-        "911 never held",
+        "24/7 answering",
+        "Callbacks",
+        "Appointment scheduling",
+        "Text-back replies",
         "English + Spanish",
-        "Morning logs",
-        "IT can run setup",
+        "Message taking",
+        "Emergency routing",
       ],
     },
     media: {
       kicker: "See & hear it in action",
-      title: "24/7 AI Phone Support for Local Governments and Schools",
+      title: "Hear a city line and a school line.",
       videoCaption:
-        "Upgrade after-hours voicemail with an intelligent AI voice agent that answers citizen FAQs, routes urgent calls, and keeps clean public-record logs — without adding headcount.",
+        "The film shows after-hours answering for local government and schools: a live answer, urgent routing, and a written log. It is a conceptual marketing video, not a recording of a real resident or parent. Home-service companies use the same answering service for estimates, text-back, and after-hours emergencies.",
       videoLabel: "AI City Phone conceptual marketing video",
       cityTitle: "City / resident call sample",
       cityCaption:
@@ -49,73 +69,86 @@ export const copy = {
       schoolTitle: "School / parent call sample",
       schoolCaption:
         "Demonstration parent call on a school-district line. Routine questions after the office is closed. Not a recording of a real family.",
-      pricingNote: "Pricing available upon request.",
+      pricingNote: "$450 a month. See what is included.",
     },
     pillars: {
-      title: "Built for clerks, superintendents, and the one person who still answers the phone.",
-      lead: "The same product covers City Hall and the district office. Start with one published number. Expand when the morning log earns the next department.",
+      title: "What the line does on every call.",
+      lead: "The same answering service for a contractor, a city hall, or a district office. The greeting and the handoff follow the organization that owns the number.",
       items: [
         {
-          title: "English and Spanish from the first greeting",
-          body: "Callers are met in both languages. Intake, routing, and the morning log stay bilingual so staff are not guessing.",
+          title: "Answered 24/7",
+          body: "Nights, weekends, and the hours everyone is already with someone else. Callers get a live answer instead of a full voicemail box.",
         },
         {
-          title: "911 is never held",
-          body: "Emergency callers are told to hang up and dial 911. This line is not dispatch, not a 911 center, and never parks an emergency.",
+          title: "Messages and callbacks",
+          body: "Each call leaves a complete note: who called, the number to call back, the language they used, and what they need.",
         },
         {
-          title: "Morning logs, not voicemail piles",
-          body: "Overnight and weekend calls become a structured list: who called, language, callback, and what they asked for.",
+          title: "Appointment scheduling",
+          body: "The agent books an appointment or an estimate window from the hours you approve, and writes down anything that needs a person.",
         },
         {
-          title: "Clean public-record notes",
-          body: "Each answered call is written down so clerks and principals start from a record, not a blinking light on a desk phone.",
+          title: "Text-back replies",
+          body: "When a phone callback is not the right next step, the caller can receive a text with the detail you want them to have.",
         },
         {
-          title: "IT help on a platform you can see",
-          body: "AI City Phone runs on GoHighLevel Voice AI. Hand setup to your IT manager, or let FortuneCreations help map numbers, greetings, and routing with your existing vendor.",
+          title: "English and Spanish",
+          body: "The greeting and the intake are in both languages, so the person who calls back is not guessing what was said.",
         },
         {
-          title: "Try one department first",
-          body: "Clerk, public works, attendance, or the main after-hours line. Prove the morning before you cover the whole building.",
+          title: "Emergency routing",
+          body: "A life-safety caller is told to hang up and dial 911. This line is not dispatch and does not hold that call. Other urgent calls — no heat, an active leak, a closure question — are flagged for the path you set.",
         },
       ],
     },
     how: {
-      title: "A night desk that writes things down.",
-      lead: "Residents and parents keep the number they already know. Staff keep their mornings.",
+      title: "Your number stays yours.",
+      lead: "Callers keep the number on the truck, the city website, or the school handbook. You get a written record instead of a blinking light.",
       steps: [
         {
           n: "01",
-          title: "Publish the number you already use",
-          body: "The after-hours or overflow line stays yours. We do not ask the public to learn a new brand.",
+          title: "Use the number you already publish",
+          body: "After-hours, overflow, or the main line. Customers, residents, and parents do not have to learn a new brand.",
         },
         {
           n: "02",
-          title: "Train the agent on your FAQs",
-          body: "Hours, trash days, closures, attendance, registration windows — answers come from what you approve, not from the open internet.",
+          title: "Approve the answers",
+          body: "Service area, estimate windows, hours, trash days, closures, attendance. The agent uses what you approve.",
         },
         {
           n: "03",
-          title: "Answer, route, or take a complete note",
-          body: "Routine questions get a clear answer. Urgent non-emergency calls can be routed. Everything else becomes a full message.",
+          title: "Answer, book, or take the message",
+          body: "Routine questions get a clear answer. Appointments and estimates can be scheduled. Everything else becomes a complete message.",
         },
         {
           n: "04",
-          title: "Protect 911 on every call",
-          body: "If someone needs emergency help, the agent tells them to hang up and dial 911. Those callers are never placed on hold.",
+          title: "Route what is urgent",
+          body: "A life-safety emergency goes to 911 and is never held. Other urgent calls are flagged for callback or the on-call path you choose.",
         },
         {
           n: "05",
-          title: "Open the morning log",
-          body: "Staff arrive to a bilingual list of overnight and weekend calls — ready for callbacks, work orders, or the principal’s desk.",
+          title: "Text back, then open the log",
+          body: "Callers can receive a text reply. Your team gets a list of who called, in which language, and what they needed.",
         },
       ],
     },
     audiences: {
-      title: "One product, two front doors.",
-      lead: "Small cities and school districts share the same after-hours problem. The logs stay separate.",
-      cityTitle: "Small cities & towns",
+      title: "Three kinds of lines. One answering service.",
+      lead: "Home-service companies, cities and towns, and school districts. The setup stays separate, so a roofing estimate does not land in a clerk's log.",
+      homeKicker: "HVAC, roofing, plumbing, electrical, landscaping",
+      homeTitle: "Home services",
+      homeBody:
+        "For HVAC companies, roofers, plumbers, electricians, landscapers, and similar contractors. A call that nobody answers is usually a job for whoever picks up next. While the crew is on a roof, in a crawl space, or done for the day, AI City Phone answers, books an estimate, takes the address and the problem, and texts back. After-hours emergencies — no heat, an active leak, power out at the house — are flagged for the on-call path you choose. A life-safety emergency is told to hang up and dial 911.",
+      homeItems: [
+        "Missed calls answered while the crew is on a job",
+        "Estimate and appointment booking on the hours you approve",
+        "After-hours emergencies flagged for callback",
+        "English and Spanish for the customer on the phone",
+      ],
+      civicTitle: "Cities & schools",
+      civicLead:
+        "The lines this site started with. Residents and parents get a live answer after the office is closed. Staff get a written log. Setup can be handed to your IT manager.",
+      cityTitle: "Cities & towns",
       cityBody:
         "Clerk, public works, parks, utility billing, and the main City Hall line. Residents get hours, pickup days, meeting dates, and a complete note when they need a person tomorrow.",
       cityItems: [
@@ -132,11 +165,11 @@ export const copy = {
         "Notes the office can act on at 8:00 a.m.",
       ],
       aside:
-        "We do not publish invented dollar case studies. Pricing available upon request. If a conversation is useful, we will talk through your vendors and a one-department start.",
+        "We do not publish invented case studies or call counts. The plan is $450 a month. If you want to talk through a contractor line, a city line, or a district line first, email FortuneCreations, LLC.",
     },
     trust: {
       title: "911 is never held. This line is not dispatch.",
-      lead: "AI City Phone is after-hours and overflow intake for non-emergency city and school calls. It does not replace 911, does not dispatch units, and does not keep an emergency caller waiting for an agent to finish a script.",
+      lead: "AI City Phone answers business, city, and school calls. It does not replace 911, does not dispatch police, fire, or EMS, and does not keep an emergency caller waiting. For a contractor, an after-hours problem such as no heat or an active leak is flagged for your on-call path. A life-safety emergency is still 911.",
       items: [
         {
           title: "Hang up and dial 911",
@@ -144,59 +177,81 @@ export const copy = {
         },
         {
           title: "Never held, parked, or conferenced",
-          body: "An emergency caller is not placed on hold, parked, or conferenced while the agent “finishes.” The path is out of this line and onto 911.",
+          body: "An emergency caller is not placed on hold, parked, or conferenced while the agent finishes a script. The path is off this line and onto 911.",
         },
         {
           title: "Not a public-safety answering point",
-          body: "This is not a 911 center and not a replacement for your police, fire, or EMS dispatch. Those agencies keep their own numbers and processes.",
+          body: "This is not a 911 center and not a replacement for police, fire, or EMS dispatch. Those agencies keep their own numbers and processes.",
         },
         {
-          title: "Public-record logs for civic staff",
-          body: "Non-emergency calls are written down for the morning. That is a staff tool — not a promise that every note is already a formal records request.",
+          title: "A written log for the people who call back",
+          body: "Non-emergency calls are written down. For a city or district, that note is a staff tool for the morning. It is not a promise that every note is already a formal records request. For a business, it is the callback list.",
         },
       ],
     },
     pricing: {
-      title: "What it costs",
-      statement: "Pricing available upon request.",
-      trial: "Start with HighLevel Boot Camp",
-      trialNote:
-        "The Boot Camp page is HighLevel’s trial path for the platform behind AI City Phone. Offers and trial terms there are HighLevel’s.",
-      emailCta: "Email FortuneCreations",
+      title: "A simple monthly plan",
+      lead: "One published price for a home-service company, a city or town, or a school district.",
+      perMonth: "per month",
+      billed: "Billed monthly.",
+      coverage:
+        "Covers one organization and the main number you want answered. If you need a second number or a separate log, email us before adding it. We will tell you the cost first.",
+      includedTitle: "Included",
+      included: [
+        "24/7 AI answering",
+        "Message taking with callback details",
+        "Appointment and estimate scheduling",
+        "Text-back replies",
+        "English and Spanish",
+        "A written log of each call",
+        "Emergency routing, with a clear instruction to hang up and dial 911",
+      ],
+      subscribe: "Get started, $450/month",
+      contact: "Questions? Contact us",
+      mailSubject: "AI City Phone — $450/month",
+      questionSubject: "AI City Phone — question",
+      fallbackNote:
+        "Online checkout is not connected on this site yet. Get started, $450/month emails FortuneCreations, LLC instead of opening a payment page. No card number is entered here.",
+      connectedNote:
+        "Get started opens Stripe’s secure checkout and bills $450 each month. FortuneCreations, LLC does not see or store your card number. Questions? Contact us still sends an email.",
     },
     itHandoff: {
       kicker: "IT handoff",
-      title: "Easy to pass to your IT manager.",
-      body: "Your IT department or IT manager can run setup through the online HighLevel Boot Camp, with training materials for your city or school district.",
+      title: "Cities and districts can hand this to IT.",
+      body: "Your IT department or IT manager can run setup through HighLevel’s online Boot Camp, with the training materials on that page. Home-service companies can skip that path and email FortuneCreations, LLC.",
       cta: "Open HighLevel Boot Camp",
-      note: "Click-by-click training on the platform AI City Phone is built on. FortuneCreations stays available if you want a conversation first.",
+      note: "The button opens HighLevel’s own training page. FortuneCreations, LLC stays available if you want a conversation first.",
     },
     faq: {
-      title: "Questions clerks and IT actually ask",
+      title: "Questions worth answering before you start",
       items: [
         {
           q: "Does this replace 911?",
           a: "No. AI City Phone is not a public-safety answering point. Emergency callers are told to hang up and dial 911. Those calls are never placed on hold.",
         },
         {
-          q: "Is every call answered in English and Spanish?",
-          a: "Yes. The greeting and intake are bilingual. That is part of the product, not an add-on checkbox we hide in a quote.",
+          q: "Does this work for HVAC, roofers, and other contractors?",
+          a: "Yes. Home-service companies use it to answer while the crew is on a job, book estimates, take the address and the problem, text back, and flag after-hours emergencies for the on-call path you set. Cities, towns, and school districts use the same service for their public lines.",
         },
         {
-          q: "What is a morning log?",
-          a: "A structured list of overnight and weekend calls: who called, language, callback number, and what they asked for — so staff start the day from writing, not from a voicemail pile.",
+          q: "What does $450 a month include?",
+          a: "24/7 answering, message taking, callbacks, appointment and estimate scheduling, text-back replies, English and Spanish, a written call log, and emergency routing. The plan covers one organization and its main number. FortuneCreations, LLC will say so before billing anything beyond that.",
+        },
+        {
+          q: "What if Get started opens an email instead of a payment page?",
+          a: "Checkout is a Stripe Payment Link. Until that link is connected on the site you are viewing, the button emails fortunecreationsut@froyorobo.com so you can start the $450/month plan. This site never asks for a card number. Questions? Contact us uses the same address.",
+        },
+        {
+          q: "Is every call answered in English and Spanish?",
+          a: "Yes. The greeting and intake are bilingual. That is part of the plan, not an add-on we hide in a quote.",
+        },
+        {
+          q: "What is the call log?",
+          a: "A written list of calls: who called, the language, the callback number, and what they needed. City and school staff often open it in the morning. A contractor can open it between jobs.",
         },
         {
           q: "Can our IT department handle setup?",
-          a: "Yes. This is easy to pass to your IT manager or IT team. They can run setup through the online HighLevel Boot Camp, which includes training materials for your city or district. FortuneCreations can also help map numbers and greetings if you want a conversation first.",
-        },
-        {
-          q: "What is the HighLevel Boot Camp path?",
-          a: "A GoHighLevel onboarding class and trial you can start before a longer commitment. It is the hands-on way to see the platform AI City Phone is built on. Offers on that page are HighLevel’s — we do not invent a separate 30-day-only city package.",
-        },
-        {
-          q: "What does it cost?",
-          a: "Pricing available upon request.",
+          a: "Yes, for a city or school district. This is easy to pass to your IT manager or IT team. They can run setup through HighLevel’s online Boot Camp, which includes training materials. The button in the IT section opens that HighLevel page. FortuneCreations, LLC can also map numbers and greetings if you want a conversation first. Home-service companies can email us and skip the Boot Camp path.",
         },
         {
           q: "Who operates AI City Phone?",
@@ -209,29 +264,37 @@ export const copy = {
       ],
     },
     cta: {
-      title: "Send the number you already publish. We will talk through coverage.",
-      body: "Start with one department — the clerk line, the after-hours City Hall number, or the parent line. No invented case studies. No pressure to cover every extension on day one.",
-      handoff: "Easy to pass to IT: your IT manager can run setup via the online Boot Camp with training materials for your city or district.",
-      email: "Email fortunecreationsut@froyorobo.com",
-      trial: "Try it with one department",
-      trialNote:
-        "Opens the HighLevel Boot Camp page — the platform path behind AI City Phone. Pricing available upon request.",
+      title: "Start the $450/month plan, or ask a question first.",
+      body: "Tell FortuneCreations, LLC which number you already publish, and which calls should be booked, texted, or only written down.",
+      handoff:
+        "Cities and school districts can hand setup to an IT manager. Home-service companies can email us and we will map the greeting, the booking rules, and the after-hours path.",
     },
     footer: {
       blurb:
-        "AI phone answering for small cities and school districts. English and Spanish. 911 never held. Morning logs for staff.",
+        "24/7 AI phone answering for home-service companies, cities and towns, and school districts. English and Spanish. 911 is never held.",
       legal: "FortuneCreations, LLC",
       domain: "Planned domain: aicityphone.com",
       privacy: "Privacy",
       contact: "Contact",
+      homeServices: "Home services",
+      cities: "Cities & towns",
+      schools: "School districts",
+      pricing: "Pricing",
+    },
+    thanks: {
+      kicker: "Checkout",
+      title: "Thank you",
+      body: "If you finished checkout, FortuneCreations, LLC will use the email from Stripe to set up the line with you: the number, the greeting, what should be booked, and how urgent calls should be flagged.",
+      note: "Opening this page does not, by itself, mean a payment went through. If you closed checkout early or you are not sure it completed, email us and we will look it up. The published plan is $450 a month.",
+      home: "Back to the homepage",
     },
     privacy: {
       title: "Privacy",
-      updated: "Last updated: September 20, 2026",
+      updated: "Last updated: October 25, 2026",
       sections: [
         {
           title: "Who we are",
-          body: "AI City Phone is operated by FortuneCreations, LLC. The planned public website is aicityphone.com. Contact: fortunecreationsut@froyorobo.com.",
+          body: "AI City Phone is a 24/7 answering service for home-service companies, cities and towns, and school districts. It is operated by FortuneCreations, LLC. The planned public website is aicityphone.com. Contact: fortunecreationsut@froyorobo.com.",
         },
         {
           title: "This is not an emergency service",
@@ -239,23 +302,27 @@ export const copy = {
         },
         {
           title: "What this site collects",
-          body: "This marketing site does not require an account. If you email us, we receive whatever you send — typically a name, office, phone number, and a short description of the line you want covered. We use that only to reply and to plan a conversation.",
+          body: "This marketing site does not require an account. If you email us, we receive whatever you send — typically a name, organization, phone number, and a short description of the line you want covered. We use that only to reply and to plan the service.",
         },
         {
           title: "Calls, recordings, and logs",
-          body: "When a city or district uses AI City Phone, call audio, transcripts, and morning logs are handled on GoHighLevel and according to that agency’s records rules. FortuneCreations does not sell those records. Your agency remains responsible for retention and public-records responses.",
+          body: "When a business, city, or district uses AI City Phone, call audio, transcripts, and call logs are handled on GoHighLevel and according to that organization’s own rules. FortuneCreations, LLC does not sell those records. The organization remains responsible for retention and for any public-records responses.",
+        },
+        {
+          title: "Payments",
+          body: "The published plan is $450 a month. When online checkout is connected, payment happens on a Stripe Payment Link, on Stripe’s site. FortuneCreations, LLC does not receive or store your card number. Stripe’s privacy policy applies to that page. If checkout is not connected, the subscribe button on this site opens an email to us instead of a payment page.",
         },
         {
           title: "HighLevel Boot Camp",
-          body: "The “try it with one department” link opens a GoHighLevel Boot Camp page. That site has its own terms, privacy policy, and trial terms. We do not control HighLevel’s billing or communication surcharges.",
+          body: "Cities and school districts may open HighLevel’s Boot Camp training page from the IT section of this site. That page is HighLevel’s. It has its own terms and privacy policy. FortuneCreations, LLC does not control HighLevel’s billing. This site does not send you through an affiliate link.",
         },
         {
           title: "Cookies and analytics",
-          body: "This site does not currently drop advertising cookies. If we later add basic hosting or analytics cookies, we will update this page.",
+          body: "This site uses Vercel Web Analytics to understand basic visits. It does not use advertising cookies, and we do not sell visitor data.",
         },
         {
           title: "Changes",
-          body: "We may update this stub as the product and domain go live. The date at the top will change when we do.",
+          body: "We may update this notice as the product and domain change. The date at the top will change when we do.",
         },
       ],
     },
@@ -264,38 +331,58 @@ export const copy = {
     htmlLang: "es",
     skip: "Saltar al contenido",
     nav: {
-      media: "Ver y escuchar",
-      how: "Cómo funciona",
+      media: "Muestras",
+      homeServices: "Servicios del hogar",
       audiences: "Ciudades y escuelas",
+      how: "Cómo funciona",
       trust: "911",
       pricing: "Precio",
       faq: "Preguntas",
       privacy: "Privacidad",
     },
-    headerCta: "Pedir una conversación",
+    headerCta: "Empiece",
     langLabel: "Idioma",
     en: "EN",
     es: "ES",
     hero: {
-      eyebrow: "Atención telefónica con IA para ciudades pequeñas y distritos escolares",
-      title: "Llamadas fuera de horario contestadas. Las mañanas del personal, protegidas.",
-      body: "AI City Phone atiende a residentes y padres en inglés y español, toma un mensaje completo y entrega un registro matutino. El 911 nunca se pone en espera. Funciona sobre GoHighLevel. Es fácil pasarlo a su gerente de TI, con un Boot Camp para empezar.",
-      primary: "Véalo y escúchelo en acción",
-      secondary: "Vea qué cuesta",
-      trial: "Pruébelo con un departamento",
-      handoff: "La puesta en marcha se puede entregar a su departamento o gerente de TI: pueden hacerla en el Boot Camp en línea.",
+      switcherLabel: "Elija una línea",
+      civicBanner:
+        "Ciudades, pueblos y distritos escolares: esta es la página de AI City Phone, también si llegó desde un correo. Las empresas de servicios del hogar también están aquí.",
+      switcher: [
+        {
+          href: "#home-services",
+          title: "Servicios del hogar",
+          body: "HVAC, techos, plomería, electricidad, jardinería y contratistas similares.",
+        },
+        {
+          href: "#cities",
+          title: "Ciudades y pueblos",
+          body: "Ayuntamiento, servicios públicos y líneas de departamentos fuera de horario.",
+        },
+        {
+          href: "#schools",
+          title: "Distritos escolares",
+          body: "Líneas de padres, asistencia y recepción cuando el edificio ya cerró.",
+        },
+      ],
+      eyebrow: "Atención telefónica con IA, las 24 horas",
+      title: "Contestamos cuando nadie puede atender.",
+      body: "AI City Phone saluda en inglés y español, toma el mensaje completo, agenda citas, responde por texto y enruta las urgencias. Un plan, $450 al mes, de FortuneCreations, LLC.",
       chips: [
-        "El 911 nunca en espera",
-        "Inglés + español",
-        "Registros matutinos",
-        "TI puede configurarlo",
+        "Atención 24/7",
+        "Devoluciones de llamada",
+        "Agenda de citas",
+        "Respuesta por texto",
+        "Inglés y español",
+        "Toma de mensajes",
+        "Enrutamiento de urgencias",
       ],
     },
     media: {
       kicker: "Véalo y escúchelo en acción",
-      title: "Atención telefónica con IA 24/7 para gobiernos locales y escuelas",
+      title: "Escuche una línea de ciudad y una de escuela.",
       videoCaption:
-        "Mejore el buzón de voz fuera de horario con un agente de voz de IA que responde preguntas frecuentes de la ciudadanía, enruta llamadas urgentes y mantiene registros limpios de archivo público — sin sumar personal.",
+        "El video muestra la atención fuera de horario para gobiernos locales y escuelas: una respuesta en vivo, enrutamiento de urgencias y un registro escrito. Es un video conceptual de marketing, no la grabación de un residente o de una familia real. Las empresas de servicios del hogar usan el mismo servicio para presupuestos, respuesta por texto y urgencias fuera de horario.",
       videoLabel: "Video de marketing conceptual de AI City Phone",
       cityTitle: "Muestra de llamada ciudad / residente",
       cityCaption:
@@ -303,73 +390,86 @@ export const copy = {
       schoolTitle: "Muestra de llamada escuela / padre o madre",
       schoolCaption:
         "Llamada de demostración de un padre o madre en una línea de distrito escolar. Preguntas rutinarias cuando la oficina ya cerró. No es la grabación de una familia real.",
-      pricingNote: "Pricing available upon request.",
+      pricingNote: "$450 al mes. Vea qué incluye.",
     },
     pillars: {
-      title: "Hecho para secretarios, superintendentes y la persona que todavía contesta el teléfono.",
-      lead: "El mismo producto cubre el ayuntamiento y la oficina del distrito. Empiece con un número publicado. Amplíe cuando el registro matutino gane el siguiente departamento.",
+      title: "Qué hace la línea en cada llamada.",
+      lead: "El mismo servicio de atención para un contratista, un ayuntamiento o la oficina del distrito. El saludo y la entrega siguen a la organización dueña del número.",
       items: [
         {
-          title: "Inglés y español desde el primer saludo",
-          body: "Quien llama es atendido en ambos idiomas. La toma de datos, el enrutamiento y el registro matutino siguen bilingües.",
+          title: "Atención las 24 horas",
+          body: "Noches, fines de semana y las horas en que todo el equipo ya está con otra persona. Quien llama recibe una respuesta en vivo, no un buzón lleno.",
         },
         {
-          title: "El 911 nunca se pone en espera",
-          body: "A quien tiene una emergencia se le dice que cuelgue y marque 911. Esta línea no es despacho ni un centro 911, y nunca estaciona una emergencia.",
+          title: "Mensajes y devoluciones",
+          body: "Cada llamada deja una nota completa: quién llamó, el número para devolver la llamada, el idioma y qué necesita.",
         },
         {
-          title: "Registros matutinos, no pilas de buzón",
-          body: "Las llamadas de la noche y el fin de semana se vuelven una lista: quién llamó, idioma, devolución y qué pidió.",
+          title: "Agenda de citas",
+          body: "El agente reserva una cita o una ventana para un presupuesto en los horarios que usted aprueba, y anota lo que necesita una persona.",
         },
         {
-          title: "Notas limpias de archivo público",
-          body: "Cada llamada contestada queda por escrito para que el personal empiece desde un registro, no desde una luz parpadeante.",
+          title: "Respuesta por texto",
+          body: "Cuando una devolución de llamada no es el siguiente paso correcto, quien llamó puede recibir un mensaje de texto con el dato que usted quiere dar.",
         },
         {
-          title: "Apoyo de TI en una plataforma visible",
-          body: "AI City Phone funciona con Voice AI de GoHighLevel. Puede pasar la puesta en marcha a su gerente de TI, o FortuneCreations ayuda a mapear números, saludos y enrutamiento con su proveedor actual.",
+          title: "Inglés y español",
+          body: "El saludo y la toma de datos son en ambos idiomas, para que quien devuelva la llamada no tenga que adivinar lo que se dijo.",
         },
         {
-          title: "Empiece con un departamento",
-          body: "Secretaría, obras públicas, asistencia o la línea principal fuera de horario. Pruebe la mañana antes de cubrir todo el edificio.",
+          title: "Enrutamiento de urgencias",
+          body: "A quien tiene una emergencia de vida o seguridad se le dice que cuelgue y marque 911. Esta línea no es despacho y no pone esa llamada en espera. Otras urgencias — sin calefacción, una fuga activa, una pregunta de cierre — quedan marcadas para el camino que usted defina.",
         },
       ],
     },
     how: {
-      title: "Una mesa nocturna que anota las cosas.",
-      lead: "Residentes y padres conservan el número que ya conocen. El personal conserva sus mañanas.",
+      title: "Su número sigue siendo suyo.",
+      lead: "Quien llama conserva el número del camión, del sitio de la ciudad o del manual de la escuela. Usted recibe un registro escrito, no una luz parpadeante.",
       steps: [
         {
           n: "01",
-          title: "Publique el número que ya usan",
-          body: "La línea fuera de horario o de desborde sigue siendo suya. No pedimos que el público aprenda una marca nueva.",
+          title: "Use el número que ya publica",
+          body: "Fuera de horario, desborde o la línea principal. Clientes, residentes y padres no tienen que aprender una marca nueva.",
         },
         {
           n: "02",
-          title: "Entrene al agente con sus preguntas frecuentes",
-          body: "Horarios, basura, cierres, asistencia, inscripciones: las respuestas salen de lo que ustedes aprueban, no de internet abierto.",
+          title: "Apruebe las respuestas",
+          body: "Zona de servicio, ventanas de presupuesto, horarios, basura, cierres, asistencia. El agente usa lo que usted aprueba.",
         },
         {
           n: "03",
-          title: "Contestar, enrutar o tomar una nota completa",
-          body: "Las preguntas rutinarias reciben una respuesta clara. Las urgencias que no son emergencia se pueden enrutar. Lo demás queda como mensaje completo.",
+          title: "Contestar, agendar o tomar el mensaje",
+          body: "Las preguntas rutinarias reciben una respuesta clara. Las citas y los presupuestos se pueden agendar. Lo demás queda como mensaje completo.",
         },
         {
           n: "04",
-          title: "Proteger el 911 en cada llamada",
-          body: "Si alguien necesita ayuda de emergencia, el agente le dice que cuelgue y marque 911. Esas personas nunca quedan en espera.",
+          title: "Enrutar lo urgente",
+          body: "Una emergencia de vida o seguridad va al 911 y nunca queda en espera. Las demás llamadas urgentes se marcan para devolución o para el camino de guardia que usted elija.",
         },
         {
           n: "05",
-          title: "Abrir el registro matutino",
-          body: "El personal llega a una lista bilingüe de la noche y el fin de semana, lista para devoluciones, órdenes de trabajo o el escritorio de la dirección.",
+          title: "Responder por texto y abrir el registro",
+          body: "Quien llama puede recibir un mensaje de texto. Su equipo recibe una lista de quién llamó, en qué idioma y qué necesitaba.",
         },
       ],
     },
     audiences: {
-      title: "Un producto, dos puertas de entrada.",
-      lead: "Las ciudades pequeñas y los distritos escolares comparten el mismo problema fuera de horario. Los registros se mantienen separados.",
-      cityTitle: "Ciudades y pueblos pequeños",
+      title: "Tres tipos de línea. Un servicio de atención.",
+      lead: "Empresas de servicios del hogar, ciudades y pueblos, y distritos escolares. La configuración se mantiene separada, para que un presupuesto de techos no llegue al registro de la secretaría.",
+      homeKicker: "HVAC, techos, plomería, electricidad, jardinería",
+      homeTitle: "Servicios del hogar",
+      homeBody:
+        "Para empresas de HVAC, techos, plomería, electricidad, jardinería y contratistas similares. Una llamada que nadie contesta suele ser un trabajo para quien atiende después. Mientras el equipo está en un techo, en un sótano o ya terminó el día, AI City Phone contesta, agenda un presupuesto, toma la dirección y el problema, y responde por texto. Las urgencias fuera de horario — sin calefacción, una fuga activa, la casa sin luz — quedan marcadas para el camino de guardia que usted elija. A una emergencia de vida o seguridad se le dice que cuelgue y marque 911.",
+      homeItems: [
+        "Llamadas contestadas mientras el equipo está en un trabajo",
+        "Agenda de presupuestos y citas en los horarios que usted aprueba",
+        "Urgencias fuera de horario marcadas para devolución",
+        "Inglés y español para el cliente que llama",
+      ],
+      civicTitle: "Ciudades y escuelas",
+      civicLead:
+        "Las líneas con las que empezó este sitio. Residentes y padres reciben una respuesta en vivo cuando la oficina ya cerró. El personal recibe un registro escrito. La puesta en marcha se puede entregar a su gerente de TI.",
+      cityTitle: "Ciudades y pueblos",
       cityBody:
         "Secretaría, obras públicas, parques, facturación de servicios y la línea principal del ayuntamiento. Quien llama obtiene horarios, días de recolección, fechas de reunión y una nota completa si necesita a alguien mañana.",
       cityItems: [
@@ -386,11 +486,11 @@ export const copy = {
         "Notas que la oficina puede atender a las 8:00 a. m.",
       ],
       aside:
-        "No publicamos casos de estudio con dólares inventados. Pricing available upon request. Si la conversación sirve, hablamos de sus proveedores y un arranque de un departamento.",
+        "No publicamos casos de estudio ni conteos de llamadas inventados. El plan es de $450 al mes. Si quiere hablar primero de una línea de contratista, de ciudad o de distrito, escriba a FortuneCreations, LLC.",
     },
     trust: {
       title: "El 911 nunca se pone en espera. Esta línea no es despacho.",
-      lead: "AI City Phone es toma de llamadas fuera de horario y de desborde para líneas no emergentes de ciudad y escuela. No reemplaza al 911, no despacha unidades y no deja esperando a quien tiene una emergencia.",
+      lead: "AI City Phone atiende llamadas de empresas, ciudades y escuelas. No reemplaza al 911, no despacha policía, bomberos ni EMS, y no deja esperando a quien tiene una emergencia. Para un contratista, un problema fuera de horario como falta de calefacción o una fuga activa se marca para su camino de guardia. Una emergencia de vida o seguridad sigue siendo 911.",
       items: [
         {
           title: "Cuelgue y marque 911",
@@ -398,59 +498,81 @@ export const copy = {
         },
         {
           title: "Nunca en espera, estacionada ni en conferencia",
-          body: "Una llamada de emergencia no se pone en espera, no se estaciona y no entra a conferencia mientras el agente “termina.” El camino es salir de esta línea y marcar 911.",
+          body: "Una llamada de emergencia no se pone en espera, no se estaciona y no entra a conferencia mientras el agente termina un guion. El camino es salir de esta línea y marcar 911.",
         },
         {
           title: "No es un punto de respuesta de seguridad pública",
           body: "Esto no es un centro 911 ni un reemplazo del despacho de policía, bomberos o EMS. Esas agencias conservan sus números y procesos.",
         },
         {
-          title: "Registros para el personal cívico",
-          body: "Las llamadas que no son emergencia se anotan para la mañana. Es una herramienta de personal, no la promesa de que cada nota ya es una solicitud formal de archivos.",
+          title: "Un registro escrito para quien devuelve la llamada",
+          body: "Las llamadas que no son emergencia quedan por escrito. Para una ciudad o un distrito, esa nota es una herramienta del personal para la mañana. No es la promesa de que cada nota ya es una solicitud formal de archivos. Para un negocio, es la lista de devoluciones.",
         },
       ],
     },
     pricing: {
-      title: "Qué cuesta",
-      statement: "Pricing available upon request.",
-      trial: "Empezar con HighLevel Boot Camp",
-      trialNote:
-        "La página del Boot Camp es el camino de prueba de HighLevel para la plataforma detrás de AI City Phone. Las ofertas y condiciones de esa página son de HighLevel.",
-      emailCta: "Escribir a FortuneCreations",
+      title: "Un plan mensual sencillo",
+      lead: "Un precio publicado para una empresa de servicios del hogar, una ciudad o pueblo, o un distrito escolar.",
+      perMonth: "al mes",
+      billed: "Se factura cada mes.",
+      coverage:
+        "Cubre una organización y el número principal que quiere atender. Si necesita un segundo número o un registro aparte, escríbanos antes de agregarlo. Le diremos el costo primero.",
+      includedTitle: "Incluye",
+      included: [
+        "Atención con IA las 24 horas",
+        "Toma de mensajes con datos para devolver la llamada",
+        "Agenda de citas y presupuestos",
+        "Respuestas por mensaje de texto",
+        "Inglés y español",
+        "Un registro escrito de cada llamada",
+        "Enrutamiento de urgencias, con la instrucción clara de colgar y marcar 911",
+      ],
+      subscribe: "Empiece, $450 al mes",
+      contact: "¿Preguntas? Contáctenos",
+      mailSubject: "AI City Phone — $450 al mes",
+      questionSubject: "AI City Phone — pregunta",
+      fallbackNote:
+        "El pago en línea todavía no está conectado en este sitio. «Empiece, $450 al mes» envía un correo a FortuneCreations, LLC en lugar de abrir una página de pago. Aquí no se escribe ningún número de tarjeta.",
+      connectedNote:
+        "«Empiece» abre el pago seguro de Stripe y cobra $450 cada mes. FortuneCreations, LLC no ve ni guarda su número de tarjeta. «¿Preguntas? Contáctenos» sigue enviando un correo.",
     },
     itHandoff: {
       kicker: "Entrega a TI",
-      title: "Fácil de pasar a su gerente de TI.",
-      body: "Su departamento de informática o gerente de TI puede hacer la puesta en marcha con el Boot Camp en línea de HighLevel, con materiales de capacitación para su ciudad o distrito escolar.",
+      title: "Ciudades y distritos pueden pasarlo a TI.",
+      body: "Su departamento de informática o gerente de TI puede hacer la puesta en marcha con el Boot Camp en línea de HighLevel y los materiales de esa página. Las empresas de servicios del hogar pueden omitir ese camino y escribir a FortuneCreations, LLC.",
       cta: "Abrir HighLevel Boot Camp",
-      note: "Capacitación paso a paso en la plataforma sobre la que está construido AI City Phone. FortuneCreations sigue disponible si quieren una conversación primero.",
+      note: "El botón abre la página de capacitación de HighLevel. FortuneCreations, LLC sigue disponible si prefieren una conversación primero.",
     },
     faq: {
-      title: "Preguntas que de verdad hacen secretaría y TI",
+      title: "Preguntas útiles antes de empezar",
       items: [
         {
           q: "¿Esto reemplaza al 911?",
           a: "No. AI City Phone no es un punto de respuesta de seguridad pública. A quien tiene una emergencia se le dice que cuelgue y marque 911. Esas llamadas nunca se ponen en espera.",
         },
         {
-          q: "¿Cada llamada se atiende en inglés y español?",
-          a: "Sí. El saludo y la toma de datos son bilingües. Eso es parte del producto, no una casilla extra escondida en una cotización.",
+          q: "¿Sirve para HVAC, techos y otros contratistas?",
+          a: "Sí. Las empresas de servicios del hogar lo usan para contestar mientras el equipo está en un trabajo, agendar presupuestos, tomar la dirección y el problema, responder por texto y marcar las urgencias fuera de horario para el camino de guardia que definan. Ciudades, pueblos y distritos escolares usan el mismo servicio para sus líneas públicas.",
         },
         {
-          q: "¿Qué es un registro matutino?",
-          a: "Una lista estructurada de las llamadas de la noche y el fin de semana: quién llamó, idioma, número de devolución y qué pidió, para que el personal empiece el día desde lo escrito, no desde el buzón.",
+          q: "¿Qué incluye $450 al mes?",
+          a: "Atención 24/7, toma de mensajes, devoluciones de llamada, agenda de citas y presupuestos, respuesta por texto, inglés y español, un registro escrito de llamadas y enrutamiento de urgencias. El plan cubre una organización y su número principal. FortuneCreations, LLC lo dirá antes de cobrar cualquier cosa adicional.",
+        },
+        {
+          q: "¿Qué pasa si Empiece abre un correo en lugar de una página de pago?",
+          a: "El pago es un Payment Link de Stripe. Hasta que ese enlace esté conectado en el sitio que está viendo, el botón escribe a fortunecreationsut@froyorobo.com para empezar el plan de $450 al mes. Este sitio nunca pide un número de tarjeta. ¿Preguntas? Contáctenos usa el mismo correo.",
+        },
+        {
+          q: "¿Cada llamada se atiende en inglés y español?",
+          a: "Sí. El saludo y la toma de datos son bilingües. Eso es parte del plan, no un extra escondido en una cotización.",
+        },
+        {
+          q: "¿Qué es el registro de llamadas?",
+          a: "Una lista escrita: quién llamó, el idioma, el número de devolución y qué necesitaba. El personal de la ciudad o la escuela suele abrirlo por la mañana. Un contratista puede abrirlo entre trabajos.",
         },
         {
           q: "¿Puede encargarse nuestro departamento de TI?",
-          a: "Sí. Es fácil pasarlo a su gerente de TI o al equipo de informática. Pueden hacer la puesta en marcha con el Boot Camp en línea de HighLevel, que incluye materiales de capacitación para su ciudad o distrito. FortuneCreations también puede ayudar a mapear números y saludos si quieren una conversación primero.",
-        },
-        {
-          q: "¿Qué es el camino de HighLevel Boot Camp?",
-          a: "Una clase de incorporación y una prueba de GoHighLevel que pueden empezar antes de un compromiso más largo. Es la forma práctica de ver la plataforma sobre la que está construido AI City Phone. Las ofertas de esa página son de HighLevel; nosotros no inventamos un paquete municipal de solo 30 días.",
-        },
-        {
-          q: "¿Cuánto cuesta?",
-          a: "Pricing available upon request.",
+          a: "Sí, en una ciudad o un distrito escolar. Es fácil pasarlo a su gerente de TI o al equipo de informática. Pueden hacer la puesta en marcha con el Boot Camp en línea de HighLevel, que incluye materiales de capacitación. El botón de la sección de TI abre esa página de HighLevel. FortuneCreations, LLC también puede mapear números y saludos si quieren una conversación primero. Las empresas de servicios del hogar pueden escribirnos y omitir el Boot Camp.",
         },
         {
           q: "¿Quién opera AI City Phone?",
@@ -463,29 +585,37 @@ export const copy = {
       ],
     },
     cta: {
-      title: "Envíe el número que ya publican. Hablamos de la cobertura.",
-      body: "Empiece con un departamento: la línea de secretaría, el número fuera de horario del ayuntamiento o la línea de padres. Sin casos inventados. Sin presión para cubrir cada extensión el primer día.",
-      handoff: "Fácil de pasar a TI: su gerente de informática puede hacer la puesta en marcha con el Boot Camp en línea y materiales de capacitación para su ciudad o distrito.",
-      email: "Escribir a fortunecreationsut@froyorobo.com",
-      trial: "Pruébelo con un departamento",
-      trialNote:
-        "Abre la página de HighLevel Boot Camp, el camino de plataforma detrás de AI City Phone. Pricing available upon request.",
+      title: "Empiece el plan de $450 al mes, o pregunte primero.",
+      body: "Dígale a FortuneCreations, LLC qué número ya publica y qué llamadas deben agendarse, responderse por texto o solo anotarse.",
+      handoff:
+        "Las ciudades y los distritos escolares pueden entregar la puesta en marcha a un gerente de TI. Las empresas de servicios del hogar pueden escribirnos y mapeamos el saludo, las reglas de agenda y el camino fuera de horario.",
     },
     footer: {
       blurb:
-        "Atención telefónica con IA para ciudades pequeñas y distritos escolares. Inglés y español. El 911 nunca en espera. Registros matutinos para el personal.",
+        "Atención telefónica con IA las 24 horas para empresas de servicios del hogar, ciudades y pueblos, y distritos escolares. Inglés y español. El 911 nunca se pone en espera.",
       legal: "FortuneCreations, LLC",
       domain: "Dominio previsto: aicityphone.com",
       privacy: "Privacidad",
       contact: "Contacto",
+      homeServices: "Servicios del hogar",
+      cities: "Ciudades y pueblos",
+      schools: "Distritos escolares",
+      pricing: "Precio",
+    },
+    thanks: {
+      kicker: "Pago",
+      title: "Gracias",
+      body: "Si terminó el pago, FortuneCreations, LLC usará el correo de Stripe para configurar la línea con usted: el número, el saludo, qué debe agendarse y cómo marcar las llamadas urgentes.",
+      note: "Abrir esta página no significa, por sí solo, que un pago se haya completado. Si cerró el pago antes de tiempo o no está seguro, escríbanos y lo revisamos. El plan publicado es de $450 al mes.",
+      home: "Volver al inicio",
     },
     privacy: {
       title: "Privacidad",
-      updated: "Última actualización: 20 de septiembre de 2026",
+      updated: "Última actualización: 25 de octubre de 2026",
       sections: [
         {
           title: "Quiénes somos",
-          body: "AI City Phone lo opera FortuneCreations, LLC. El sitio público previsto es aicityphone.com. Contacto: fortunecreationsut@froyorobo.com.",
+          body: "AI City Phone es un servicio de atención 24/7 para empresas de servicios del hogar, ciudades y pueblos, y distritos escolares. Lo opera FortuneCreations, LLC. El sitio público previsto es aicityphone.com. Contacto: fortunecreationsut@froyorobo.com.",
         },
         {
           title: "Esto no es un servicio de emergencia",
@@ -493,23 +623,27 @@ export const copy = {
         },
         {
           title: "Qué recopila este sitio",
-          body: "Este sitio de marketing no pide una cuenta. Si nos escribe, recibimos lo que envíe: por lo general nombre, oficina, teléfono y una descripción breve de la línea que quieren cubrir. Eso se usa solo para responder y planear una conversación.",
+          body: "Este sitio de marketing no pide una cuenta. Si nos escribe, recibimos lo que envíe: por lo general un nombre, la organización, un teléfono y una descripción breve de la línea que quieren cubrir. Eso se usa solo para responder y planear el servicio.",
         },
         {
           title: "Llamadas, grabaciones y registros",
-          body: "Cuando una ciudad o un distrito usa AI City Phone, el audio, las transcripciones y los registros matutinos se manejan en GoHighLevel y según las reglas de archivos de esa agencia. FortuneCreations no vende esos registros. La agencia sigue siendo responsable de la retención y de las solicitudes de archivos públicos.",
+          body: "Cuando una empresa, una ciudad o un distrito usa AI City Phone, el audio, las transcripciones y los registros de llamadas se manejan en GoHighLevel y según las reglas de esa organización. FortuneCreations, LLC no vende esos registros. La organización sigue siendo responsable de la retención y de las solicitudes de archivos públicos.",
+        },
+        {
+          title: "Pagos",
+          body: "El plan publicado es de $450 al mes. Cuando el pago en línea está conectado, el cobro ocurre en un Payment Link de Stripe, en el sitio de Stripe. FortuneCreations, LLC no recibe ni guarda su número de tarjeta. La política de privacidad de Stripe aplica a esa página. Si el pago no está conectado, el botón de suscripción de este sitio abre un correo en lugar de una página de pago.",
         },
         {
           title: "HighLevel Boot Camp",
-          body: "El enlace “pruébelo con un departamento” abre una página de Boot Camp de GoHighLevel. Ese sitio tiene sus propios términos, privacidad y condiciones de prueba. No controlamos la facturación ni los recargos de comunicación de HighLevel.",
+          body: "Las ciudades y los distritos escolares pueden abrir la página de capacitación Boot Camp de HighLevel desde la sección de TI de este sitio. Esa página es de HighLevel. Tiene sus propios términos y su política de privacidad. FortuneCreations, LLC no controla la facturación de HighLevel. Este sitio no lo envía por un enlace de afiliado.",
         },
         {
           title: "Cookies y analítica",
-          body: "Este sitio no coloca cookies publicitarias en este momento. Si más adelante añadimos cookies básicas de hosting o analítica, actualizaremos esta página.",
+          body: "Este sitio usa Vercel Web Analytics para entender las visitas básicas. No usa cookies publicitarias y no vendemos datos de visitantes.",
         },
         {
           title: "Cambios",
-          body: "Podemos actualizar este aviso cuando el producto y el dominio entren en operación. La fecha de arriba cambiará cuando lo hagamos.",
+          body: "Podemos actualizar este aviso cuando cambien el producto y el dominio. La fecha de arriba cambiará cuando lo hagamos.",
         },
       ],
     },
