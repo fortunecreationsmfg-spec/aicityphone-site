@@ -24,24 +24,26 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${BRAND} | After-hours answering for cities & schools`,
+    default: `${BRAND} | 24/7 AI phone answering`,
     template: `%s | ${BRAND}`,
   },
   description:
-    "AI phone answering for small cities and school districts. English and Spanish. 911 is never held. Morning logs for staff. Built on GoHighLevel by FortuneCreations, LLC.",
+    "24/7 AI phone answering for home-service companies, cities and towns, and school districts. Callbacks, scheduling, text-back, English and Spanish. $450 a month from FortuneCreations, LLC. 911 is never held.",
   applicationName: BRAND,
   authors: [{ name: LEGAL_NAME, url: SITE_URL }],
   keywords: [
     "AI City Phone",
+    "AI answering service",
+    "HVAC answering service",
+    "contractor answering service",
     "small city phone answering",
     "school district after hours",
-    "GoHighLevel",
-    "municipal AI voice",
+    "FortuneCreations",
   ],
   openGraph: {
-    title: `${BRAND} | After-hours answering for cities & schools`,
+    title: `${BRAND} | 24/7 AI phone answering`,
     description:
-      "Upgrade after-hours voicemail with an AI voice agent for local governments and schools. 911 is never held.",
+      "AI answering for home-service companies, cities and towns, and school districts. $450 a month. 911 is never held.",
     url: SITE_URL,
     siteName: BRAND,
     locale: "en_US",

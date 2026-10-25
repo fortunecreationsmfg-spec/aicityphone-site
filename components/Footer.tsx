@@ -26,7 +26,19 @@ export function Footer() {
               {CONTACT_EMAIL}
             </a>
           </p>
-          <p>
+          <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+            <Link className="underline decoration-gold/60 underline-offset-4 hover:text-white" href="/#home-services">
+              {t.footer.homeServices}
+            </Link>
+            <Link className="underline decoration-gold/60 underline-offset-4 hover:text-white" href="/#cities">
+              {t.footer.cities}
+            </Link>
+            <Link className="underline decoration-gold/60 underline-offset-4 hover:text-white" href="/#schools">
+              {t.footer.schools}
+            </Link>
+            <Link className="underline decoration-gold/60 underline-offset-4 hover:text-white" href="/#pricing">
+              {t.footer.pricing}
+            </Link>
             <Link className="underline decoration-gold/60 underline-offset-4 hover:text-white" href="/privacy">
               {t.footer.privacy}
             </Link>

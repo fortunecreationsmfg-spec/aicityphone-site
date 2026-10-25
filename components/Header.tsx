@@ -2,14 +2,15 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { BOOTCAMP_URL, BRAND, CONTACT_EMAIL } from "@/lib/constants";
+import { BRAND, CONTACT_EMAIL } from "@/lib/constants";
 import { BrandMark } from "@/components/BrandMark";
 import { useI18n } from "@/components/LanguageProvider";
 
 const NAV = [
   { href: "/#see-it", key: "media" },
+  { href: "/#home-services", key: "homeServices" },
+  { href: "/#cities-and-schools", key: "audiences" },
   { href: "/#how", key: "how" },
-  { href: "/#audiences", key: "audiences" },
   { href: "/#trust", key: "trust" },
   { href: "/#pricing", key: "pricing" },
   { href: "/#faq", key: "faq" },
@@ -18,21 +19,21 @@ const NAV = [
 export function Header() {
   const { t, locale, setLocale } = useI18n();
   const [open, setOpen] = useState(false);
-  const mail = `mailto:${CONTACT_EMAIL}`;
+  const questionMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(t.pricing.questionSubject)}`;
 
   return (
     <header className="sticky top-0 z-40 border-b border-navy/10 bg-paper/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5 font-display text-lg tracking-tight text-navy">
-          <BrandMark className="h-9 w-9" />
+          <BrandMark className="h-9 w-9 shrink-0" />
           <span>{BRAND}</span>
         </Link>
 
-        <nav className="hidden items-center gap-5 text-sm text-ink/80 lg:flex" aria-label={BRAND}>
+        <nav className="hidden items-center gap-x-3 text-sm text-ink/80 xl:flex" aria-label={BRAND}>
           {NAV.map((item) => (
-            <a key={item.href} href={item.href} className="hover:text-navy">
+            <Link key={item.href} href={item.href} className="hover:text-navy">
               {t.nav[item.key]}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -60,16 +61,16 @@ export function Header() {
             </button>
           </div>
 
-          <a
-            href={mail}
+          <Link
+            href="/#pricing"
             className="hidden rounded-full bg-navy px-3.5 py-2 text-sm font-semibold text-paper hover:bg-navy-deep sm:inline-flex"
           >
             {t.headerCta}
-          </a>
+          </Link>
 
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-navy/15 text-navy lg:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-navy/15 text-navy xl:hidden"
             aria-expanded={open}
             aria-controls="mobile-nav"
             onClick={() => setOpen((v) => !v)}
@@ -81,24 +82,18 @@ export function Header() {
       </div>
 
       {open ? (
-        <div id="mobile-nav" className="border-t border-navy/10 bg-paper px-4 py-4 lg:hidden">
+        <div id="mobile-nav" className="border-t border-navy/10 bg-paper px-4 py-4 xl:hidden">
           <nav className="flex flex-col gap-3 text-base text-navy">
             {NAV.map((item) => (
-              <a key={item.href} href={item.href} onClick={() => setOpen(false)}>
+              <Link key={item.href} href={item.href} onClick={() => setOpen(false)}>
                 {t.nav[item.key]}
-              </a>
+              </Link>
             ))}
-            <a href={mail} className="font-semibold" onClick={() => setOpen(false)}>
+            <Link href="/#pricing" className="font-semibold" onClick={() => setOpen(false)}>
               {t.headerCta}
-            </a>
-            <a
-              href={BOOTCAMP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-teal"
-              onClick={() => setOpen(false)}
-            >
-              {t.hero.trial}
+            </Link>
+            <a href={questionMail} onClick={() => setOpen(false)}>
+              {t.pricing.contact}
             </a>
           </nav>
         </div>
