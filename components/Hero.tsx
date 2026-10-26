@@ -28,8 +28,13 @@ export function Hero() {
   }
 
   return (
-    <section id="audiences" className="relative z-10 mx-auto max-w-6xl scroll-mt-24 px-4 pb-4 pt-6 sm:px-6 sm:pt-8">
-      <div role="tablist" aria-label={a.label} className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
+    <section id="audiences" className="relative z-10 scroll-mt-24 pb-4">
+      <div className="bg-white">
+        <div
+          role="tablist"
+          aria-label={a.label}
+          className="mx-auto grid max-w-6xl grid-cols-1 gap-3 px-4 py-6 sm:px-6 sm:py-8 md:grid-cols-2 md:gap-4"
+        >
         <AudienceChoice
           id="audience-city"
           selected={audience === "city"}
@@ -48,9 +53,10 @@ export function Hero() {
           onSelect={() => select("home")}
           onKeyDown={(event) => onKeyDown(event, "home")}
         />
+        </div>
       </div>
 
-      <div id="hero-copy" aria-live="polite" className="mt-8 sm:mt-10">
+      <div id="hero-copy" aria-live="polite" className="mx-auto mt-8 max-w-6xl px-4 sm:mt-10 sm:px-6">
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal">{t.hero.eyebrow}</p>
         <h1 className="mt-3 max-w-3xl font-display text-3xl leading-[1.15] text-navy sm:text-4xl">
           {copy.title}
@@ -58,7 +64,7 @@ export function Hero() {
         <p className="mt-4 max-w-2xl text-lg leading-8 text-ink/80">{copy.body}</p>
       </div>
 
-      <div className="mt-8 flex flex-wrap gap-3">
+      <div className="mx-auto mt-8 flex max-w-6xl flex-wrap gap-3 px-4 sm:px-6">
         <a href="#see-it" className="btn-primary">
           {t.hero.primary}
         </a>
@@ -66,7 +72,7 @@ export function Hero() {
           {t.hero.secondary}
         </a>
       </div>
-      <ul className="mt-8 flex flex-wrap gap-2">
+      <ul className="mx-auto mt-8 flex max-w-6xl flex-wrap gap-2 px-4 sm:px-6">
         {t.hero.chips.map((chip) => (
           <li
             key={chip}
@@ -107,10 +113,10 @@ function AudienceChoice({
       tabIndex={selected ? 0 : -1}
       onClick={onSelect}
       onKeyDown={onKeyDown}
-      className={`flex min-h-[9.5rem] w-full flex-col justify-between rounded-3xl border-2 px-6 py-7 text-left shadow-sm transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal sm:min-h-[11rem] sm:px-8 sm:py-9 md:min-h-[13.5rem] ${
+      className={`flex min-h-[9.5rem] w-full flex-col justify-between rounded-3xl border-2 px-6 py-7 text-left transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal sm:min-h-[11rem] sm:px-8 sm:py-9 md:min-h-[13.5rem] ${
         selected
-          ? "border-navy bg-navy text-paper"
-          : "border-navy/20 bg-white text-navy hover:border-navy/50"
+          ? "border-navy bg-navy text-paper shadow-sm"
+          : "border-navy/15 bg-white text-navy shadow-[0_1px_2px_rgba(11,28,51,0.06),0_10px_28px_rgba(11,28,51,0.07)] hover:border-navy/40"
       }`}
     >
       <span className="block font-display text-4xl leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
