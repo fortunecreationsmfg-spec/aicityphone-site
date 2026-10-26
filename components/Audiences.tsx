@@ -1,93 +1,24 @@
 "use client";
 
-import { useState } from "react";
+import { useAudience } from "@/components/AudienceProvider";
 import { useI18n } from "@/components/LanguageProvider";
-
-type AudienceTab = "city" | "home";
 
 export function Audiences() {
   const { t } = useI18n();
+  const { audience } = useAudience();
   const a = t.audiences;
-  const [tab, setTab] = useState<AudienceTab>("city");
-
-  function focusTab(next: AudienceTab) {
-    setTab(next);
-    requestAnimationFrame(() => {
-      document.getElementById(next === "city" ? "tab-city" : "tab-home")?.focus();
-    });
-  }
-
-  function onTabKeyDown(event: React.KeyboardEvent<HTMLButtonElement>) {
-    if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
-      event.preventDefault();
-      focusTab(tab === "city" ? "home" : "city");
-    } else if (event.key === "Home") {
-      event.preventDefault();
-      focusTab("city");
-    } else if (event.key === "End") {
-      event.preventDefault();
-      focusTab("home");
-    }
-  }
-
-  const tabClass = (selected: boolean) =>
-    `rounded-xl px-3 py-3 text-center transition-colors ${
-      selected ? "bg-navy text-paper" : "text-navy hover:bg-navy/5"
-    }`;
 
   return (
-    <section id="audiences" className="relative z-10 mx-auto max-w-6xl scroll-mt-24 px-4 pb-16 pt-8 sm:px-6">
-      <h2 className="max-w-3xl font-display text-3xl text-navy sm:text-4xl">{a.heading}</h2>
-      <p className="mt-4 max-w-2xl text-lg leading-8 text-ink/75">{a.lead}</p>
-
-      <div
-        role="tablist"
-        aria-label={a.label}
-        className="mt-8 grid grid-cols-2 gap-2 rounded-2xl border border-navy/10 bg-white p-2"
-      >
-        <button
-          type="button"
-          role="tab"
-          id="tab-city"
-          aria-selected={tab === "city"}
-          aria-controls="panel-city"
-          tabIndex={tab === "city" ? 0 : -1}
-          className={tabClass(tab === "city")}
-          onClick={() => setTab("city")}
-          onKeyDown={onTabKeyDown}
-        >
-          <span className="block text-sm font-semibold sm:text-base">{a.cityTab}</span>
-          <span className={`mt-0.5 block text-xs ${tab === "city" ? "text-mist" : "text-ink/60"}`}>
-            {a.cityTabHint}
-          </span>
-        </button>
-        <button
-          type="button"
-          role="tab"
-          id="tab-home"
-          aria-selected={tab === "home"}
-          aria-controls="panel-home"
-          tabIndex={tab === "home" ? 0 : -1}
-          className={tabClass(tab === "home")}
-          onClick={() => setTab("home")}
-          onKeyDown={onTabKeyDown}
-        >
-          <span className="block text-sm font-semibold sm:text-base">{a.homeTab}</span>
-          <span className={`mt-0.5 block text-xs ${tab === "home" ? "text-mist" : "text-ink/60"}`}>
-            {a.homeTabHint}
-          </span>
-        </button>
-      </div>
-
+    <section className="relative z-10 mx-auto max-w-6xl px-4 pb-16 pt-6 sm:px-6">
       <div
         role="tabpanel"
         id="panel-city"
-        aria-labelledby="tab-city"
-        hidden={tab !== "city"}
-        className="mt-6 space-y-6"
+        aria-labelledby="audience-city"
+        hidden={audience !== "city"}
+        className="space-y-6"
       >
         <article className="rounded-2xl border border-navy/10 bg-white p-6 sm:p-7">
-          <h3 className="font-display text-2xl text-navy">{a.cityTitle}</h3>
+          <h2 className="font-display text-2xl text-navy sm:text-3xl">{a.cityTitle}</h2>
           <p className="mt-3 leading-7 text-ink/80">{a.cityIntro}</p>
           <p className="mt-3 leading-7 text-ink/80">{a.cityBody}</p>
           <ul className="mt-5 space-y-2 text-sm text-ink/80">
@@ -144,12 +75,12 @@ export function Audiences() {
       <div
         role="tabpanel"
         id="panel-home"
-        aria-labelledby="tab-home"
-        hidden={tab !== "home"}
-        className="mt-6 grid gap-6 lg:grid-cols-[1.15fr_0.85fr]"
+        aria-labelledby="audience-home"
+        hidden={audience !== "home"}
+        className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]"
       >
         <article className="rounded-2xl border border-navy/10 bg-white p-6 sm:p-7">
-          <h3 className="font-display text-2xl text-navy">{a.homeTitle}</h3>
+          <h2 className="font-display text-2xl text-navy sm:text-3xl">{a.homeTitle}</h2>
           <p className="mt-3 leading-7 text-ink/80">{a.homeBody}</p>
         </article>
         <article className="rounded-2xl border border-navy/10 bg-white p-6 sm:p-7">

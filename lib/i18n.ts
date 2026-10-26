@@ -24,9 +24,13 @@ export const copy = {
     es: "ES",
     hero: {
       eyebrow: "Done-for-you AI phone answering",
-      title: "The phone stays covered when your people are not at a desk.",
-      body: "FortuneCreations, LLC answers calls for small city and town departments and for local home services companies — roofers, HVAC, plumbers, and similar contractors. The service is 24/7 AI call answering, missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock. Setup and ongoing management are done for you.",
-      primary: "Cities and home services",
+      cityTitle: "After-hours resident calls, answered.",
+      cityBody:
+        "FortuneCreations, LLC answers the line for small city and town departments. Residents and parents are greeted in English and Spanish, a complete message is taken, and staff get a morning log. 911 is never held. The service includes 24/7 AI call answering, missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock. Setup and ongoing management are done for you.",
+      homeTitle: "Missed calls on the job turn into lost jobs.",
+      homeBody:
+        "FortuneCreations, LLC answers the line for roofers, HVAC companies, plumbers, and similar contractors. Calls missed while the crew is on a roof or on a job, after hours, or during storm and heat-season rushes are covered with 24/7 AI call answering, missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock. Setup and ongoing management are done for you.",
+      primary: "See & hear it in action",
       secondary: "See what it costs",
       chips: [
         "24/7 AI call answering",
@@ -116,9 +120,9 @@ export const copy = {
       label: "Who the service is for",
       heading: "Cities, towns, and home services.",
       lead: "The same answering service. The calls are different.",
-      cityTab: "Cities & towns",
+      cityTab: "Cities & Towns",
       cityTabHint: "Residents and department lines",
-      homeTab: "Home services",
+      homeTab: "Home Services",
       homeTabHint: "Roofers, HVAC, plumbers",
       cityIntro:
         "AI City Phone greets residents and parents in English and Spanish, takes a complete message, and delivers a morning log. 911 is never held. Setup and ongoing management are done for you.",
@@ -355,9 +359,13 @@ export const copy = {
     es: "ES",
     hero: {
       eyebrow: "Contestación telefónica con IA, hecha por nosotros",
-      title: "El teléfono sigue atendido cuando su gente no está en un escritorio.",
-      body: "FortuneCreations, LLC contesta las llamadas de departamentos de ciudades y pueblos pequeños y de empresas locales de servicios del hogar: techadores, HVAC, plomeros y contratistas similares. El servicio incluye contestación con IA las 24 horas, texto si se pierde la llamada, devoluciones automáticas, programación de citas y estimados, y respuestas por texto a cualquier hora. La puesta en marcha y la gestión continua las hacemos nosotros.",
-      primary: "Ciudades y servicios del hogar",
+      cityTitle: "Llamadas de residentes fuera de horario, contestadas.",
+      cityBody:
+        "FortuneCreations, LLC contesta la línea para departamentos de ciudades y pueblos pequeños. Residentes y padres son atendidos en inglés y español, se toma un mensaje completo y el personal recibe un registro matutino. El 911 nunca se pone en espera. El servicio incluye contestación con IA las 24 horas, texto si se pierde la llamada, devoluciones automáticas, programación de citas y estimados, y respuestas por texto a cualquier hora. La puesta en marcha y la gestión continua las hacemos nosotros.",
+      homeTitle: "Las llamadas perdidas en el trabajo se vuelven trabajos perdidos.",
+      homeBody:
+        "FortuneCreations, LLC contesta la línea para techadores, empresas de HVAC, plomeros y contratistas similares. Las llamadas que se pierden mientras el equipo está en un techo o en un trabajo, fuera de horario, o en la temporada de tormentas o de calor, se cubren con contestación con IA las 24 horas, texto si se pierde la llamada, devoluciones automáticas, programación de citas y estimados, y respuestas por texto a cualquier hora. La puesta en marcha y la gestión continua las hacemos nosotros.",
+      primary: "Véalo y escúchelo en acción",
       secondary: "Vea qué cuesta",
       chips: [
         "Contestación con IA las 24 horas",

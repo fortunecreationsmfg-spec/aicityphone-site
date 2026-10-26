@@ -4,7 +4,7 @@ Marketing website for a done-for-you AI phone answering service from **FortuneCr
 
 Contact: [fortunecreationsut@froyorobo.com](mailto:fortunecreationsut@froyorobo.com). Planned public domain: [aicityphone.com](https://aicityphone.com).
 
-The site is bilingual (English / Spanish). City and school lines state that **911 is never held**. The homepage includes a conceptual marketing video plus city and school sample calls. School district copy stays inside the Cities & towns tab.
+The site is bilingual (English / Spanish). City and school lines state that **911 is never held**. The homepage includes a conceptual marketing video plus city and school sample calls. The homepage opens with large Cities & Towns and Home Services choices. School district copy stays with Cities & Towns.
 
 ## Stack
 
