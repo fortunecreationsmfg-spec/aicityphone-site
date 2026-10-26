@@ -2,13 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SiteShell } from "@/components/SiteShell";
-import {
-  BRAND,
-  CONTACT_EMAIL,
-  LEGAL_NAME,
-  PLANNED_DOMAIN,
-  SITE_URL,
-} from "@/lib/constants";
+import { CONTACT_EMAIL, LEGAL_NAME, PLANNED_DOMAIN, SITE_URL } from "@/lib/constants";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -21,29 +15,37 @@ const sourceSans = Source_Sans_3({
   subsets: ["latin", "latin-ext"],
 });
 
+const TITLE = "FortuneCreations | AI phone answering for cities and home services";
+const DESCRIPTION =
+  "Done-for-you AI phone answering from FortuneCreations, LLC for small city and town departments and local home services companies. 24/7 call answering, missed-call text-back, automatic callbacks, scheduling, and text replies. Pricing available upon request.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${BRAND} | After-hours answering for cities & schools`,
-    template: `%s | ${BRAND}`,
+    default: TITLE,
+    template: "%s | FortuneCreations",
   },
-  description:
-    "AI phone answering for small cities and school districts. English and Spanish. 911 is never held. Morning logs for staff. Built on GoHighLevel by FortuneCreations, LLC.",
-  applicationName: BRAND,
+  description: DESCRIPTION,
+  applicationName: "FortuneCreations",
   authors: [{ name: LEGAL_NAME, url: SITE_URL }],
   keywords: [
-    "AI City Phone",
+    "FortuneCreations",
+    "AI phone answering",
     "small city phone answering",
+    "town hall after hours",
     "school district after hours",
-    "GoHighLevel",
-    "municipal AI voice",
+    "home services answering service",
+    "roofer missed calls",
+    "HVAC answering service",
+    "plumber answering service",
+    "missed call text back",
   ],
   openGraph: {
-    title: `${BRAND} | After-hours answering for cities & schools`,
+    title: TITLE,
     description:
-      "Upgrade after-hours voicemail with an AI voice agent for local governments and schools. 911 is never held.",
+      "Done-for-you AI phone answering for small city and town departments and for local home services companies. Pricing available upon request.",
     url: SITE_URL,
-    siteName: BRAND,
+    siteName: "FortuneCreations",
     locale: "en_US",
     type: "website",
   },

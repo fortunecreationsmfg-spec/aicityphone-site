@@ -1,6 +1,6 @@
 "use client";
 
-import { BOOTCAMP_URL, CONTACT_EMAIL } from "@/lib/constants";
+import { CONTACT_EMAIL } from "@/lib/constants";
 import { useI18n } from "@/components/LanguageProvider";
 
 export function Pricing() {
@@ -18,17 +18,9 @@ export function Pricing() {
         </aside>
 
         <div className="flex flex-col justify-center rounded-3xl border border-navy/10 bg-white p-8 sm:p-10">
-          <p className="text-base leading-7 text-ink/80">{t.pricing.trialNote}</p>
+          <p className="text-base leading-7 text-ink/80">{t.pricing.note}</p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a
-              href={BOOTCAMP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              {t.pricing.trial}
-            </a>
-            <a href={`mailto:${CONTACT_EMAIL}`} className="btn-secondary">
+            <a href={`mailto:${CONTACT_EMAIL}`} className="btn-primary max-w-full whitespace-normal text-center">
               {t.pricing.emailCta}
             </a>
           </div>
