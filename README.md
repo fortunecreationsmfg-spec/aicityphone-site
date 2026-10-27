@@ -1,10 +1,10 @@
 # AI City Phone
 
-Marketing website for **AI City Phone** — after-hours AI phone answering for small cities and school districts.
+Marketing website for a done-for-you AI phone answering service from **FortuneCreations, LLC**. It speaks to small city and town departments and to local home services companies (roofers, HVAC, plumbers, and similar contractors).
 
-Operated by **FortuneCreations, LLC**. Planned public domain: [aicityphone.com](https://aicityphone.com). Contact: [fortunecreationsut@froyorobo.com](mailto:fortunecreationsut@froyorobo.com).
+Contact: [fortunecreationsut@froyorobo.com](mailto:fortunecreationsut@froyorobo.com). Planned public domain: [aicityphone.com](https://aicityphone.com).
 
-The product runs on GoHighLevel Voice AI. The site is bilingual (English / Spanish), states that **911 is never held**, and features the conceptual marketing video plus city and school sample calls.
+The site is bilingual (English / Spanish). City and school lines state that **911 is never held**. The homepage includes a conceptual marketing video plus city and school sample calls. The homepage opens with large Cities & Towns and Home Services choices. School district copy stays with Cities & Towns.
 
 ## Stack
 
@@ -40,7 +40,7 @@ Files in `public/media/`:
 | `sample-call-city.mp3` | City / resident sample (utility billing / City Hall line) |
 | `sample-call-school.mp3` | School / parent sample (district office / dress-code follow-up) |
 
-They appear in the **See & hear it in action** band directly under the hero. An IT-handoff band follows the media, before how-it-works.
+They appear in the **See & hear it in action** band. A done-for-you band follows the media: setup and ongoing management are handled by FortuneCreations.
 
 ## Deploy on Vercel
 
@@ -50,10 +50,8 @@ They appear in the **See & hear it in action** band directly under the hero. An 
 4. Deploy from the `main` branch. No extra environment variables are required.
 5. When DNS is ready, attach `aicityphone.com`.
 
-The primary trial CTA is a soft “try one department” link to the HighLevel Boot Camp page. Offers on that page belong to HighLevel; this site does not invent a separate 30-day-only municipal package.
-
 ## Notes
 
-- Pricing available upon request. This site does not publish a public dollar price.
-- Setup can be handed to the city’s or district’s IT manager. They can run it through the [HighLevel Boot Camp](https://www.gohighlevel.com/highlevel-bootcamp?fp_ref=jer78).
+- Pricing available upon request. This site does not publish a public price.
 - Emergency callers are told to hang up and dial 911. This line is not dispatch.
+- Do not add customer counts, testimonials, or performance claims.

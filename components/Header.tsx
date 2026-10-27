@@ -2,14 +2,14 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { BOOTCAMP_URL, BRAND, CONTACT_EMAIL } from "@/lib/constants";
+import { BRAND, CONTACT_EMAIL } from "@/lib/constants";
 import { BrandMark } from "@/components/BrandMark";
 import { useI18n } from "@/components/LanguageProvider";
 
 const NAV = [
+  { href: "/#audiences", key: "audiences" },
   { href: "/#see-it", key: "media" },
   { href: "/#how", key: "how" },
-  { href: "/#audiences", key: "audiences" },
   { href: "/#trust", key: "trust" },
   { href: "/#pricing", key: "pricing" },
   { href: "/#faq", key: "faq" },
@@ -90,15 +90,6 @@ export function Header() {
             ))}
             <a href={mail} className="font-semibold" onClick={() => setOpen(false)}>
               {t.headerCta}
-            </a>
-            <a
-              href={BOOTCAMP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-teal"
-              onClick={() => setOpen(false)}
-            >
-              {t.hero.trial}
             </a>
           </nav>
         </div>
