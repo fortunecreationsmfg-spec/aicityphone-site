@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SiteShell } from "@/components/SiteShell";
-import { CONTACT_EMAIL, LEGAL_NAME, PLANNED_DOMAIN, SITE_URL } from "@/lib/constants";
+import { BRAND, CONTACT_EMAIL, PLANNED_DOMAIN, SITE_URL } from "@/lib/constants";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -15,21 +15,21 @@ const sourceSans = Source_Sans_3({
   subsets: ["latin", "latin-ext"],
 });
 
-const TITLE = "FortuneCreations | AI phone answering for cities and home services";
+const TITLE = `${BRAND} | AI phone answering for cities and home services`;
 const DESCRIPTION =
-  "Done-for-you AI phone answering from FortuneCreations, LLC for small city and town departments and local home services companies. 24/7 call answering, missed-call text-back, automatic callbacks, scheduling, and text replies. Pricing available upon request.";
+  "Done-for-you AI phone answering for small city and town departments and local home services companies. 24/7 call answering, missed-call text-back, automatic callbacks, scheduling, and text replies. Pricing available upon request.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE,
-    template: "%s | FortuneCreations",
+    template: `%s | ${BRAND}`,
   },
   description: DESCRIPTION,
-  applicationName: "FortuneCreations",
-  authors: [{ name: LEGAL_NAME, url: SITE_URL }],
+  applicationName: BRAND,
+  authors: [{ name: BRAND, url: SITE_URL }],
   keywords: [
-    "FortuneCreations",
+    "AI City Phone",
     "AI phone answering",
     "small city phone answering",
     "town hall after hours",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     description:
       "Done-for-you AI phone answering for small city and town departments and for local home services companies. Pricing available upon request.",
     url: SITE_URL,
-    siteName: "FortuneCreations",
+    siteName: BRAND,
     locale: "en_US",
     type: "website",
   },

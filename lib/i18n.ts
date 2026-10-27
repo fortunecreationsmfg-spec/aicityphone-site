@@ -26,10 +26,10 @@ export const copy = {
       eyebrow: "Done-for-you AI phone answering",
       cityTitle: "After-hours resident calls, answered.",
       cityBody:
-        "FortuneCreations, LLC answers the line for small city and town departments. Residents and parents are greeted in English and Spanish, a complete message is taken, and staff get a morning log. 911 is never held. The service includes 24/7 AI call answering, missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock. Setup and ongoing management are done for you.",
+        "We answer the line for small city and town departments. Residents and parents are greeted in English and Spanish, a complete message is taken, and staff get a morning log. 911 is never held. The service includes 24/7 AI call answering, missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock. Setup and ongoing management are done for you.",
       homeTitle: "Missed calls on the job turn into lost jobs.",
       homeBody:
-        "FortuneCreations, LLC answers the line for roofers, HVAC companies, plumbers, and similar contractors. Calls missed while the crew is on a roof or on a job, after hours, or during storm and heat-season rushes are covered with 24/7 AI call answering, missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock. Setup and ongoing management are done for you.",
+        "We answer the line for roofers, HVAC companies, plumbers, and similar contractors. Calls missed while the crew is on a roof or on a job, after hours, or during storm and heat-season rushes are covered with 24/7 AI call answering, missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock. Setup and ongoing management are done for you.",
       primary: "See & hear it in action",
       secondary: "See what it costs",
       chips: [
@@ -81,13 +81,13 @@ export const copy = {
         },
         {
           title: "Setup and ongoing management",
-          body: "FortuneCreations sets the service up and keeps managing it. That work is done for you.",
+          body: "Our team sets the service up. It is managed on GoHighLevel. That work is done for you.",
         },
       ],
     },
     how: {
       title: "How a call is handled.",
-      lead: "You keep the number you already publish. FortuneCreations sets the service up and manages it.",
+      lead: "You keep the number you already publish. Our team sets the service up. It is managed on GoHighLevel.",
       steps: [
         {
           n: "01",
@@ -112,7 +112,7 @@ export const copy = {
         {
           n: "05",
           title: "Keep managing it",
-          body: "Text replies continue around the clock. FortuneCreations handles ongoing management.",
+          body: "Text replies continue around the clock. Ongoing management runs on GoHighLevel.",
         },
       ],
     },
@@ -164,7 +164,7 @@ export const copy = {
         },
         {
           title: "Setup and management are done for you",
-          body: "FortuneCreations sets up the number, greeting, and routing, and keeps managing the line. Staff still open the morning log.",
+          body: "Our team sets up the number, greeting, and routing. The line is managed on GoHighLevel. Staff still open the morning log.",
         },
         {
           title: "Try one department first",
@@ -202,7 +202,7 @@ export const copy = {
       ],
       homeTitle: "Missed calls on the job turn into lost jobs.",
       homeBody:
-        "For roofers, HVAC companies, plumbers, and similar contractors, calls missed while the crew is on a roof or on a job, after hours, or during storm and heat-season rushes turn into lost jobs. FortuneCreations answers the phone, sends a text when a call is missed, places automatic callbacks, schedules appointments and estimates, and replies by text around the clock.",
+        "For roofers, HVAC companies, plumbers, and similar contractors, calls missed while the crew is on a roof or on a job, after hours, or during storm and heat-season rushes turn into lost jobs. We answer the phone, send a text when a call is missed, place automatic callbacks, schedule appointments and estimates, and reply by text around the clock.",
       homeListTitle: "Included on a home services line",
       homeItems: [
         "24/7 AI call answering while the crew is on a job",
@@ -240,14 +240,14 @@ export const copy = {
     pricing: {
       title: "What it costs",
       statement: "Pricing available upon request.",
-      note: "Email FortuneCreations and say whether you are a city or town department or a home services company, and which number you want covered.",
-      emailCta: "Email FortuneCreations",
+      note: "Email us and say whether you are a city or town department or a home services company, and which number you want covered.",
+      emailCta: "Email us",
     },
     done: {
       kicker: "Done for you",
-      title: "Setup and ongoing management are handled for you.",
-      body: "FortuneCreations sets up the answering service and keeps managing it. City and town staff still receive the morning log. Home services companies get missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock.",
-      cta: "Email FortuneCreations",
+      title: "Set up for you, managed on GoHighLevel.",
+      body: "The answering service is set up by FortuneCreations, LLC and is managed by GoHighLevel (GHL). City and town staff still receive the morning log. Home services companies get missed-call text-back, automatic callbacks, appointment and estimate scheduling, and text replies around the clock.",
+      cta: "Email us",
       note: "Pricing available upon request.",
     },
     faq: {
@@ -275,7 +275,7 @@ export const copy = {
         },
         {
           q: "Who sets it up and manages it?",
-          a: "FortuneCreations, LLC sets up the service and manages it on an ongoing basis. You keep the number you already publish.",
+          a: "Our team sets up the service. It is managed on GoHighLevel. You keep the number you already publish.",
         },
         {
           q: "What does it cost?",
@@ -283,7 +283,7 @@ export const copy = {
         },
         {
           q: "Who operates this service?",
-          a: "FortuneCreations, LLC. Contact: fortunecreationsut@froyorobo.com. The planned public domain is aicityphone.com.",
+          a: "Our team. Contact: fortunecreationsut@froyorobo.com. The planned public domain is aicityphone.com.",
         },
         {
           q: "Can one setup cover both city hall and the district?",
@@ -301,7 +301,6 @@ export const copy = {
     footer: {
       blurb:
         "Done-for-you AI phone answering for small city and town departments and for local home services companies. Setup and ongoing management included.",
-      legal: "FortuneCreations, LLC",
       domain: "Planned domain: aicityphone.com",
       privacy: "Privacy",
       contact: "Contact",
@@ -312,7 +311,7 @@ export const copy = {
       sections: [
         {
           title: "Who we are",
-          body: "This site is operated by FortuneCreations, LLC. The service is done-for-you AI phone answering for small city and town departments, school districts, and local home services companies. The planned public website is aicityphone.com. Contact: fortunecreationsut@froyorobo.com.",
+          body: "We operate this site. The service is done-for-you AI phone answering for small city and town departments, school districts, and local home services companies. The planned public website is aicityphone.com. Contact: fortunecreationsut@froyorobo.com.",
         },
         {
           title: "This is not an emergency service",
@@ -324,11 +323,11 @@ export const copy = {
         },
         {
           title: "Calls, recordings, and logs",
-          body: "When a customer uses the answering service, call audio, transcripts, text messages, and logs are handled for that customer and according to that customer’s records rules. FortuneCreations does not sell those records. The customer remains responsible for retention and, where public-records laws apply, for responses to records requests.",
+          body: "When a customer uses the answering service, call audio, transcripts, text messages, and logs are handled for that customer and according to that customer’s records rules. We do not sell those records. The customer remains responsible for retention and, where public-records laws apply, for responses to records requests.",
         },
         {
           title: "Setup and management",
-          body: "FortuneCreations, LLC sets up the answering service and manages it on an ongoing basis. Email the contact address above to ask about setup. We use that conversation to plan the line. We do not sell your email or the contents of that message.",
+          body: "Our team sets up the answering service. It is managed on GoHighLevel. Email the contact address above to ask about setup. We use that conversation to plan the line. We do not sell your email or the contents of that message.",
         },
         {
           title: "Cookies and analytics",
@@ -361,10 +360,10 @@ export const copy = {
       eyebrow: "Contestación telefónica con IA, hecha por nosotros",
       cityTitle: "Llamadas de residentes fuera de horario, contestadas.",
       cityBody:
-        "FortuneCreations, LLC contesta la línea para departamentos de ciudades y pueblos pequeños. Residentes y padres son atendidos en inglés y español, se toma un mensaje completo y el personal recibe un registro matutino. El 911 nunca se pone en espera. El servicio incluye contestación con IA las 24 horas, texto si se pierde la llamada, devoluciones automáticas, programación de citas y estimados, y respuestas por texto a cualquier hora. La puesta en marcha y la gestión continua las hacemos nosotros.",
+        "Contestamos la línea para departamentos de ciudades y pueblos pequeños. Residentes y padres son atendidos en inglés y español, se toma un mensaje completo y el personal recibe un registro matutino. El 911 nunca se pone en espera. El servicio incluye contestación con IA las 24 horas, texto si se pierde la llamada, devoluciones automáticas, programación de citas y estimados, y respuestas por texto a cualquier hora. La puesta en marcha y la gestión continua las hacemos nosotros.",
       homeTitle: "Las llamadas perdidas en el trabajo se vuelven trabajos perdidos.",
       homeBody:
-        "FortuneCreations, LLC contesta la línea para techadores, empresas de HVAC, plomeros y contratistas similares. Las llamadas que se pierden mientras el equipo está en un techo o en un trabajo, fuera de horario, o en la temporada de tormentas o de calor, se cubren con contestación con IA las 24 horas, texto si se pierde la llamada, devoluciones automáticas, programación de citas y estimados, y respuestas por texto a cualquier hora. La puesta en marcha y la gestión continua las hacemos nosotros.",
+        "Contestamos la línea para techadores, empresas de HVAC, plomeros y contratistas similares. Las llamadas que se pierden mientras el equipo está en un techo o en un trabajo, fuera de horario, o en la temporada de tormentas o de calor, se cubren con contestación con IA las 24 horas, texto si se pierde la llamada, devoluciones automáticas, programación de citas y estimados, y respuestas por texto a cualquier hora. La puesta en marcha y la gestión continua las hacemos nosotros.",
       primary: "Véalo y escúchelo en acción",
       secondary: "Vea qué cuesta",
       chips: [
@@ -416,13 +415,13 @@ export const copy = {
         },
         {
           title: "Puesta en marcha y gestión continua",
-          body: "FortuneCreations configura el servicio y sigue administrándolo. Ese trabajo lo hacemos nosotros.",
+          body: "Nuestro equipo configura el servicio. Se administra en GoHighLevel. Ese trabajo lo hacemos nosotros.",
         },
       ],
     },
     how: {
       title: "Cómo se atiende una llamada.",
-      lead: "Usted conserva el número que ya publica. FortuneCreations configura el servicio y lo administra.",
+      lead: "Usted conserva el número que ya publica. Nuestro equipo configura el servicio. Se administra en GoHighLevel.",
       steps: [
         {
           n: "01",
@@ -447,7 +446,7 @@ export const copy = {
         {
           n: "05",
           title: "Seguir administrándolo",
-          body: "Las respuestas por texto continúan a cualquier hora. FortuneCreations se encarga de la gestión continua.",
+          body: "Las respuestas por texto continúan a cualquier hora. La gestión continua se hace en GoHighLevel.",
         },
       ],
     },
@@ -499,7 +498,7 @@ export const copy = {
         },
         {
           title: "La puesta en marcha y la gestión las hacemos nosotros",
-          body: "FortuneCreations configura el número, el saludo y el enrutamiento, y sigue administrando la línea. El personal abre el registro matutino.",
+          body: "Nuestro equipo configura el número, el saludo y el enrutamiento. La línea se administra en GoHighLevel. El personal abre el registro matutino.",
         },
         {
           title: "Empiece con un departamento",
@@ -537,7 +536,7 @@ export const copy = {
       ],
       homeTitle: "Las llamadas perdidas en el trabajo se vuelven trabajos perdidos.",
       homeBody:
-        "Para techadores, empresas de HVAC, plomeros y contratistas similares, las llamadas que se pierden mientras el equipo está en un techo o en un trabajo, fuera de horario, o en la temporada de tormentas o de calor, se convierten en trabajos perdidos. FortuneCreations contesta el teléfono, envía un texto cuando se pierde una llamada, hace devoluciones automáticas, programa citas y estimados y responde por texto a cualquier hora.",
+        "Para techadores, empresas de HVAC, plomeros y contratistas similares, las llamadas que se pierden mientras el equipo está en un techo o en un trabajo, fuera de horario, o en la temporada de tormentas o de calor, se convierten en trabajos perdidos. Contestamos el teléfono, enviamos un texto cuando se pierde una llamada, hacemos devoluciones automáticas, programamos citas y estimados y respondemos por texto a cualquier hora.",
       homeListTitle: "Incluido en una línea de servicios del hogar",
       homeItems: [
         "Contestación con IA las 24 horas, también con el equipo en un trabajo",
@@ -575,14 +574,14 @@ export const copy = {
     pricing: {
       title: "Qué cuesta",
       statement: "Pricing available upon request.",
-      note: "Escriba a FortuneCreations e indique si es un departamento de ciudad o pueblo, o una empresa de servicios del hogar, y qué número quiere cubrir.",
-      emailCta: "Escribir a FortuneCreations",
+      note: "Escríbanos e indique si es un departamento de ciudad o pueblo, o una empresa de servicios del hogar, y qué número quiere cubrir.",
+      emailCta: "Escríbanos",
     },
     done: {
       kicker: "Hecho por nosotros",
-      title: "La puesta en marcha y la gestión continua las manejamos nosotros.",
-      body: "FortuneCreations configura el servicio de contestación y sigue administrándolo. El personal de la ciudad o el pueblo sigue recibiendo el registro matutino. Las empresas de servicios del hogar reciben el texto por llamada perdida, las devoluciones automáticas, la programación de citas y estimados, y las respuestas por texto a cualquier hora.",
-      cta: "Escribir a FortuneCreations",
+      title: "Configurado para usted, administrado en GoHighLevel.",
+      body: "El servicio de contestación es configurado por FortuneCreations, LLC y es administrado por GoHighLevel (GHL). El personal de la ciudad o el pueblo sigue recibiendo el registro matutino. Las empresas de servicios del hogar reciben el texto por llamada perdida, las devoluciones automáticas, la programación de citas y estimados, y las respuestas por texto a cualquier hora.",
+      cta: "Escríbanos",
       note: "Pricing available upon request.",
     },
     faq: {
@@ -610,7 +609,7 @@ export const copy = {
         },
         {
           q: "¿Quién hace la puesta en marcha y la gestión?",
-          a: "FortuneCreations, LLC configura el servicio y lo administra de forma continua. Usted conserva el número que ya publica.",
+          a: "Nuestro equipo configura el servicio. Se administra en GoHighLevel. Usted conserva el número que ya publica.",
         },
         {
           q: "¿Cuánto cuesta?",
@@ -618,7 +617,7 @@ export const copy = {
         },
         {
           q: "¿Quién opera este servicio?",
-          a: "FortuneCreations, LLC. Contacto: fortunecreationsut@froyorobo.com. El dominio público previsto es aicityphone.com.",
+          a: "Nuestro equipo. Contacto: fortunecreationsut@froyorobo.com. El dominio público previsto es aicityphone.com.",
         },
         {
           q: "¿Una sola configuración cubre el ayuntamiento y el distrito?",
@@ -636,7 +635,6 @@ export const copy = {
     footer: {
       blurb:
         "Contestación telefónica con IA, hecha por nosotros, para departamentos de ciudades y pueblos pequeños y para empresas locales de servicios del hogar. La puesta en marcha y la gestión continua van incluidas.",
-      legal: "FortuneCreations, LLC",
       domain: "Dominio previsto: aicityphone.com",
       privacy: "Privacidad",
       contact: "Contacto",
@@ -647,7 +645,7 @@ export const copy = {
       sections: [
         {
           title: "Quiénes somos",
-          body: "Este sitio lo opera FortuneCreations, LLC. El servicio es contestación telefónica con IA, hecha por nosotros, para departamentos de ciudades y pueblos pequeños, distritos escolares y empresas locales de servicios del hogar. El sitio público previsto es aicityphone.com. Contacto: fortunecreationsut@froyorobo.com.",
+          body: "Operamos este sitio. El servicio es contestación telefónica con IA, hecha por nosotros, para departamentos de ciudades y pueblos pequeños, distritos escolares y empresas locales de servicios del hogar. El sitio público previsto es aicityphone.com. Contacto: fortunecreationsut@froyorobo.com.",
         },
         {
           title: "Esto no es un servicio de emergencia",
@@ -659,11 +657,11 @@ export const copy = {
         },
         {
           title: "Llamadas, grabaciones y registros",
-          body: "Cuando un cliente usa el servicio de contestación, el audio, las transcripciones, los mensajes de texto y los registros se manejan para ese cliente y según sus reglas de archivos. FortuneCreations no vende esos registros. El cliente sigue siendo responsable de la retención y, cuando aplican leyes de archivos públicos, de las respuestas a esas solicitudes.",
+          body: "Cuando un cliente usa el servicio de contestación, el audio, las transcripciones, los mensajes de texto y los registros se manejan para ese cliente y según sus reglas de archivos. No vendemos esos registros. El cliente sigue siendo responsable de la retención y, cuando aplican leyes de archivos públicos, de las respuestas a esas solicitudes.",
         },
         {
           title: "Puesta en marcha y gestión",
-          body: "FortuneCreations, LLC configura el servicio de contestación y lo administra de forma continua. Escriba a la dirección de contacto de arriba para preguntar por la puesta en marcha. Usamos esa conversación para planear la línea. No vendemos su correo ni el contenido de ese mensaje.",
+          body: "Nuestro equipo configura el servicio de contestación. Se administra en GoHighLevel. Escriba a la dirección de contacto de arriba para preguntar por la puesta en marcha. Usamos esa conversación para planear la línea. No vendemos su correo ni el contenido de ese mensaje.",
         },
         {
           title: "Cookies y analítica",

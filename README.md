@@ -1,6 +1,6 @@
 # AI City Phone
 
-Marketing website for a done-for-you AI phone answering service from **FortuneCreations, LLC**. It speaks to small city and town departments and to local home services companies (roofers, HVAC, plumbers, and similar contractors).
+Marketing website for a done-for-you AI phone answering service. It speaks to small city and town departments and to local home services companies (roofers, HVAC, plumbers, and similar contractors).
 
 Contact: [fortunecreationsut@froyorobo.com](mailto:fortunecreationsut@froyorobo.com). Planned public domain: [aicityphone.com](https://aicityphone.com).
 
@@ -40,7 +40,7 @@ Files in `public/media/`:
 | `sample-call-city.mp3` | City / resident sample (utility billing / City Hall line) |
 | `sample-call-school.mp3` | School / parent sample (district office / dress-code follow-up) |
 
-They appear in the **See & hear it in action** band. A done-for-you band follows the media: setup and ongoing management are handled by FortuneCreations.
+They appear in the **See & hear it in action** band. A done-for-you band follows the media: the service is set up for you and managed on GoHighLevel.
 
 ## Deploy on Vercel
 
