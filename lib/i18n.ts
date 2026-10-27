@@ -81,13 +81,13 @@ export const copy = {
         },
         {
           title: "Setup and ongoing management",
-          body: "Our team sets the service up and keeps managing it. That work is done for you.",
+          body: "Our team sets the service up. It is managed on GoHighLevel. That work is done for you.",
         },
       ],
     },
     how: {
       title: "How a call is handled.",
-      lead: "You keep the number you already publish. Our team sets the service up and manages it.",
+      lead: "You keep the number you already publish. Our team sets the service up. It is managed on GoHighLevel.",
       steps: [
         {
           n: "01",
@@ -112,7 +112,7 @@ export const copy = {
         {
           n: "05",
           title: "Keep managing it",
-          body: "Text replies continue around the clock. Our team handles ongoing management.",
+          body: "Text replies continue around the clock. Ongoing management runs on GoHighLevel.",
         },
       ],
     },
@@ -164,7 +164,7 @@ export const copy = {
         },
         {
           title: "Setup and management are done for you",
-          body: "Our team sets up the number, greeting, and routing, and keeps managing the line. Staff still open the morning log.",
+          body: "Our team sets up the number, greeting, and routing. The line is managed on GoHighLevel. Staff still open the morning log.",
         },
         {
           title: "Try one department first",
@@ -275,7 +275,7 @@ export const copy = {
         },
         {
           q: "Who sets it up and manages it?",
-          a: "Our team sets up the service and manages it on an ongoing basis. You keep the number you already publish.",
+          a: "Our team sets up the service. It is managed on GoHighLevel. You keep the number you already publish.",
         },
         {
           q: "What does it cost?",
@@ -327,7 +327,7 @@ export const copy = {
         },
         {
           title: "Setup and management",
-          body: "Our team sets up the answering service and manages it on an ongoing basis. Email the contact address above to ask about setup. We use that conversation to plan the line. We do not sell your email or the contents of that message.",
+          body: "Our team sets up the answering service. It is managed on GoHighLevel. Email the contact address above to ask about setup. We use that conversation to plan the line. We do not sell your email or the contents of that message.",
         },
         {
           title: "Cookies and analytics",
@@ -415,13 +415,13 @@ export const copy = {
         },
         {
           title: "Puesta en marcha y gestión continua",
-          body: "Nuestro equipo configura el servicio y sigue administrándolo. Ese trabajo lo hacemos nosotros.",
+          body: "Nuestro equipo configura el servicio. Se administra en GoHighLevel. Ese trabajo lo hacemos nosotros.",
         },
       ],
     },
     how: {
       title: "Cómo se atiende una llamada.",
-      lead: "Usted conserva el número que ya publica. Nuestro equipo configura el servicio y lo administra.",
+      lead: "Usted conserva el número que ya publica. Nuestro equipo configura el servicio. Se administra en GoHighLevel.",
       steps: [
         {
           n: "01",
@@ -446,7 +446,7 @@ export const copy = {
         {
           n: "05",
           title: "Seguir administrándolo",
-          body: "Las respuestas por texto continúan a cualquier hora. Nuestro equipo se encarga de la gestión continua.",
+          body: "Las respuestas por texto continúan a cualquier hora. La gestión continua se hace en GoHighLevel.",
         },
       ],
     },
@@ -498,7 +498,7 @@ export const copy = {
         },
         {
           title: "La puesta en marcha y la gestión las hacemos nosotros",
-          body: "Nuestro equipo configura el número, el saludo y el enrutamiento, y sigue administrando la línea. El personal abre el registro matutino.",
+          body: "Nuestro equipo configura el número, el saludo y el enrutamiento. La línea se administra en GoHighLevel. El personal abre el registro matutino.",
         },
         {
           title: "Empiece con un departamento",
@@ -609,7 +609,7 @@ export const copy = {
         },
         {
           q: "¿Quién hace la puesta en marcha y la gestión?",
-          a: "Nuestro equipo configura el servicio y lo administra de forma continua. Usted conserva el número que ya publica.",
+          a: "Nuestro equipo configura el servicio. Se administra en GoHighLevel. Usted conserva el número que ya publica.",
         },
         {
           q: "¿Cuánto cuesta?",
@@ -661,7 +661,7 @@ export const copy = {
         },
         {
           title: "Puesta en marcha y gestión",
-          body: "Nuestro equipo configura el servicio de contestación y lo administra de forma continua. Escriba a la dirección de contacto de arriba para preguntar por la puesta en marcha. Usamos esa conversación para planear la línea. No vendemos su correo ni el contenido de ese mensaje.",
+          body: "Nuestro equipo configura el servicio de contestación. Se administra en GoHighLevel. Escriba a la dirección de contacto de arriba para preguntar por la puesta en marcha. Usamos esa conversación para planear la línea. No vendemos su correo ni el contenido de ese mensaje.",
         },
         {
           title: "Cookies y analítica",
