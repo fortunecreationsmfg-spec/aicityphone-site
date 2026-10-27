@@ -1,5 +1,4 @@
 export const BRAND = "AI City Phone";
-export const LEGAL_NAME = "FortuneCreations, LLC";
 export const CONTACT_EMAIL = "fortunecreationsut@froyorobo.com";
 export const PLANNED_DOMAIN = "aicityphone.com";
 export const SITE_URL = "https://aicityphone.com";

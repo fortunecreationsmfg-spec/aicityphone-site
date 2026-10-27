@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BRAND, CONTACT_EMAIL, LEGAL_NAME } from "@/lib/constants";
+import { BRAND, CONTACT_EMAIL } from "@/lib/constants";
 import { BrandMark } from "@/components/BrandMark";
 import { useI18n } from "@/components/LanguageProvider";
 
@@ -19,7 +19,6 @@ export function Footer() {
           <p className="mt-3 max-w-md text-sm leading-6 text-mist">{t.footer.blurb}</p>
         </div>
         <div className="text-sm leading-7 text-mist">
-          <p>{LEGAL_NAME}</p>
           <p>{t.footer.domain}</p>
           <p>
             <a className="underline decoration-gold/60 underline-offset-4 hover:text-white" href={`mailto:${CONTACT_EMAIL}`}>
