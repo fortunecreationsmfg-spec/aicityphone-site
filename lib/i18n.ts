@@ -123,7 +123,7 @@ export const copy = {
       cityTab: "Cities & Towns",
       cityTabHint: "Residents and department lines",
       homeTab: "Home Services",
-      homeTabHint: "Roofers, HVAC, plumbers",
+      homeTabHint: "Roofers, HVAC, plumbers, and other home services",
       cityIntro:
         "AI City Phone greets residents and parents in English and Spanish, takes a complete message, and delivers a morning log. 911 is never held. Setup and ongoing management are done for you.",
       cityTitle: "Small cities & towns",
@@ -457,7 +457,7 @@ export const copy = {
       cityTab: "Ciudades y pueblos",
       cityTabHint: "Residentes y departamentos",
       homeTab: "Servicios del hogar",
-      homeTabHint: "Techos, HVAC, plomería",
+      homeTabHint: "Techos, HVAC, plomería y otros servicios del hogar",
       cityIntro:
         "AI City Phone atiende a residentes y padres en inglés y español, toma un mensaje completo y entrega un registro matutino. El 911 nunca se pone en espera. La puesta en marcha y la gestión continua las hacemos nosotros.",
       cityTitle: "Ciudades y pueblos pequeños",

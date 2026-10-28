@@ -50,6 +50,7 @@ export function Hero() {
           controls="hero-copy panel-home"
           label={a.homeTab}
           hint={a.homeTabHint}
+          hintClassName="text-balance"
           onSelect={() => select("home")}
           onKeyDown={(event) => onKeyDown(event, "home")}
         />
@@ -92,6 +93,7 @@ function AudienceChoice({
   controls,
   label,
   hint,
+  hintClassName,
   onSelect,
   onKeyDown,
 }: {
@@ -100,6 +102,7 @@ function AudienceChoice({
   controls: string;
   label: string;
   hint: string;
+  hintClassName?: string;
   onSelect: () => void;
   onKeyDown: (event: React.KeyboardEvent<HTMLButtonElement>) => void;
 }) {
@@ -123,7 +126,7 @@ function AudienceChoice({
         {label}
       </span>
       <span className="mt-4 flex items-end justify-between gap-4">
-        <span className={`block text-base leading-6 sm:text-lg ${selected ? "text-mist" : "text-ink/70"}`}>
+        <span className={`block text-base leading-6 sm:text-lg ${hintClassName ?? ""} ${selected ? "text-mist" : "text-ink/70"}`}>
           {hint}
         </span>
         <span
