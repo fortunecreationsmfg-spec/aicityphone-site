@@ -10,18 +10,15 @@ type CheckoutActionsProps = {
 
 export function CheckoutActions({ onDark = false }: CheckoutActionsProps) {
   const { t } = useI18n();
-  const startMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(t.pricing.mailSubject)}`;
   const questionMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(t.pricing.questionSubject)}`;
-  const checkoutHref = STRIPE_PAYMENT_LINK ?? startMail;
-  const linked = STRIPE_PAYMENT_LINK !== null;
 
   return (
     <div>
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
         <a
-          href={checkoutHref}
+          href={STRIPE_PAYMENT_LINK}
           className={`${onDark ? "btn-gold" : "btn-primary"} w-full sm:w-auto`}
-          data-checkout-mode={linked ? "stripe" : "contact"}
+          data-checkout-mode="stripe"
         >
           {t.pricing.subscribe}
         </a>
@@ -33,7 +30,7 @@ export function CheckoutActions({ onDark = false }: CheckoutActionsProps) {
         </a>
       </div>
       <p className={`mt-4 max-w-2xl text-sm leading-6 ${onDark ? "text-mist" : "text-ink/75"}`}>
-        {linked ? t.pricing.connectedNote : t.pricing.fallbackNote}
+        {t.pricing.connectedNote}
       </p>
     </div>
   );

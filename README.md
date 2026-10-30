@@ -38,15 +38,15 @@ There is no second public price. A second phone number is a conversation, not a 
 
 ## Stripe Payment Link
 
-**Get started, $450/month** opens a [Stripe Payment Link](https://docs.stripe.com/payment-links) (Stripe-hosted checkout, billed monthly) when the link is configured.
+**Get started, $450/month** opens a [Stripe Payment Link](https://docs.stripe.com/payment-links) (Stripe-hosted checkout, billed monthly). The default link is `https://buy.stripe.com/dRmeVfgs9gesdeic5V5ZC01`.
 
-The site reads that URL from the public environment variable `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` (see `lib/constants.ts`). The value is not a secret. **Do not add Stripe secret keys.** Payment Links do not need a server-side secret, a webhook, or a restricted key. Do not create any of these in Vercel or in local env files:
+The site uses that URL unless `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` is set to a different `https` URL (see `lib/constants.ts`). The value is not a secret. **Do not add Stripe secret keys.** Payment Links do not need a server-side secret, a webhook, or a restricted key. Do not create any of these in Vercel or in local env files:
 
 - `STRIPE_SECRET_KEY`
 - `STRIPE_WEBHOOK_SECRET`
 - any key that starts with `sk_live_`, `sk_test_`, or `rk_live_`
 
-If `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` is missing, blank, or not an `https` URL, **Get started, $450/month** emails `fortunecreationsut@froyorobo.com` instead of opening a broken checkout link. The page says so in plain text. **Questions? Contact us** always emails that address.
+If `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` is missing, blank, or not an `https` URL, **Get started, $450/month** keeps the live Payment Link above. A valid `https` value replaces that default. **Questions? Contact us** always emails `fortunecreationsut@froyorobo.com`.
 
 `NEXT_PUBLIC_` values are included when the site is built. Changing the variable does nothing until the next deployment.
 
@@ -79,7 +79,7 @@ Put the same Payment Link URL in `.env.local`:
 NEXT_PUBLIC_STRIPE_PAYMENT_LINK=https://buy.stripe.com/your_link
 ```
 
-Leave the value empty to preview the contact-email fallback. Restart `npm run dev` after you change it. `.env.local` is gitignored. Do not commit a `.env` file, and do not commit a secret key.
+Leave the value empty to use the live Payment Link. Restart `npm run dev` after you change it. `.env.local` is gitignored. Do not commit a `.env` file, and do not commit a secret key.
 
 ## Featured media
 
@@ -101,7 +101,7 @@ The IT button opens HighLevel’s public Boot Camp page (`https://www.gohighleve
 1. In Vercel, choose **Add New → Project → Import Git Repository**.
 2. Import this repo: `https://github.com/fortunecreationsmfg-spec/aicityphone-site`.
 3. Framework Preset should detect **Next.js**.
-4. Deploy from the `main` branch. The only environment variable is the optional `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` described above. With it unset, the subscribe button uses the contact email.
+4. Deploy from the `main` branch. The only environment variable is the optional `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` described above. With it unset, the subscribe button uses the live Payment Link.
 5. When DNS is ready, attach `aicityphone.com`, then point the Payment Link redirect at `https://aicityphone.com/thank-you` and redeploy if you change the env var.
 
 The homepage (`/`) is the address already sent in city and school email. It opens with a line chooser for home services, cities and towns, and school districts.

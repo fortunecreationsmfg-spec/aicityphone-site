@@ -210,8 +210,6 @@ export const copy = {
       contact: "Questions? Contact us",
       mailSubject: "AI City Phone — $450/month",
       questionSubject: "AI City Phone — question",
-      fallbackNote:
-        "Online checkout is not connected on this site yet. Get started, $450/month emails FortuneCreations, LLC instead of opening a payment page. No card number is entered here.",
       connectedNote:
         "Get started opens Stripe’s secure checkout and bills $450 each month. FortuneCreations, LLC does not see or store your card number. Questions? Contact us still sends an email.",
     },
@@ -531,8 +529,6 @@ export const copy = {
       contact: "¿Preguntas? Contáctenos",
       mailSubject: "AI City Phone — $450 al mes",
       questionSubject: "AI City Phone — pregunta",
-      fallbackNote:
-        "El pago en línea todavía no está conectado en este sitio. «Empiece, $450 al mes» envía un correo a FortuneCreations, LLC en lugar de abrir una página de pago. Aquí no se escribe ningún número de tarjeta.",
       connectedNote:
         "«Empiece» abre el pago seguro de Stripe y cobra $450 cada mes. FortuneCreations, LLC no ve ni guarda su número de tarjeta. «¿Preguntas? Contáctenos» sigue enviando un correo.",
     },

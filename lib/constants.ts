@@ -23,25 +23,31 @@ export const MEDIA = {
 } as const;
 
 /**
- * Public Stripe Payment Link (hosted checkout, recurring monthly).
- * Read from NEXT_PUBLIC_STRIPE_PAYMENT_LINK. This is not a secret.
- * Never put a Stripe secret key, restricted key, or webhook secret in this project.
- * Returns null when the variable is missing, blank, or not an https URL so callers
- * can fall back to the contact email instead of a broken checkout link.
+ * Live Stripe Payment Link for the $450/month plan (hosted checkout, billed monthly).
+ * This is not a secret. Never put a Stripe secret key, restricted key, or webhook
+ * secret in this project.
  */
-function readStripePaymentLink(): string | null {
+export const DEFAULT_STRIPE_PAYMENT_LINK = "https://buy.stripe.com/dRmeVfgs9gesdeic5V5ZC01";
+
+/**
+ * Public Payment Link used by Get started.
+ * NEXT_PUBLIC_STRIPE_PAYMENT_LINK overrides the live default when it is a non-empty
+ * https URL. Missing, blank, or invalid values keep the live default.
+ */
+function readStripePaymentLink(): string {
   const raw = process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK;
-  if (typeof raw !== "string") return null;
-  const trimmed = raw.trim();
-  if (!trimmed) return null;
-  let url: URL;
-  try {
-    url = new URL(trimmed);
-  } catch {
-    return null;
+  if (typeof raw === "string") {
+    const trimmed = raw.trim();
+    if (trimmed) {
+      try {
+        const url = new URL(trimmed);
+        if (url.protocol === "https:") return url.toString();
+      } catch {
+        // Ignore a malformed override and keep the live Payment Link.
+      }
+    }
   }
-  if (url.protocol !== "https:") return null;
-  return url.toString();
+  return DEFAULT_STRIPE_PAYMENT_LINK;
 }
 
 export const STRIPE_PAYMENT_LINK = readStripePaymentLink();
